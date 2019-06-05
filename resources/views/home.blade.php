@@ -2,6 +2,7 @@
 
 
 @section('content')
+    <body class="index_body">
     <div id='ea_ba' moudule='true'>
         <div class='xn_index_mba_1_wrap' id='xn_index_mba_1_wrap'>
             <div class='xn_index_mba_1_main'>

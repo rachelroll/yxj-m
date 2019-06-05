@@ -12,8 +12,9 @@
     <meta name="applicable-device" content="mobile">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__index" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F5/CgAGfFvroI2AY07OAABXr_c4RO0039.css?d=08202509402" />
+    <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
-    {{--<script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>--}}
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
     {{--video.js--}}
