@@ -1,187 +1,105 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>
-        详细信息
-    </title>
-    <meta name="keywords" content="艺乡建"/>
-    <meta name="description" content="艺乡建">
-    <meta name="applicable-device" content="pc">
-    <meta name="renderer" content="webkit" />
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link id="css__news_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzmAc6RgAAAiDDG83kc894.css?d=28164617935" />
-    <link rel="bookmark" href="Images/logo.ico" /><link rel="shortcut icon" href="Images/logo.ico" />
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" /><title>
+        光合活动 | 一根绳子的较量 - 光合活动 - 光合北京文化创意股份有限公司
+    </title><meta name="keywords" content="光合活动 | 一根绳子的较量,光合北京文化创意股份有限公司"/><meta name="description" content="拔河，是一场力量之间的对抗，也是考验团结的试金石；拔河，拔的是一种默契，拔的是一种潜力。为了丰富员工的业余文化生活，拉近同事间的距离，增强团队协作精神，塑造良好的企业文化，9月15日光合文化产业集团组织..."/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsStd_386.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__news_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiAGX38AAAt9fCndEM950.css?d=08202509777" /><link rel="bookmark" href="../Images/logo.ico" /><link rel="shortcut icon" href="../Images/logo.ico" />
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
-    <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
-    <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject_modified.js"></script>
-    <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject.js"></script>
-</head>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
+</head>
 <body class="news_view_body">
-<form name="form1" method="get" action="#" id="form1" NavigateId="2" Page="/news_view.aspx?Fid=t2:5:2&amp;Id=498&amp;TypeId=5">
+<form name="form1" method="get" action="#" id="form1" NavigateId="2" Page="/m/news_view.aspx?Fid=t2:4:2&amp;Id=386&amp;TypeId=4">
     <input type="hidden" name="__VIEWSTATE" id="
 __VIEWSTATE" value="" />
 
     @include('layout/header')
 
+    <div id="ea_n"></div>
+
     <div id="ea_ba">
-        <div id="products_banner" class="products_banner">
-            <div class="products_banner_m">
-                <img  src="../img/NewsAndView.jpg" alt="" />
+        <div class="about_banner" id="about_banner"     >
+            <div class="about_banner_m">
+                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtAzuAXHhRAAG6iEUOZoU453.jpg" alt="" />
             </div>
         </div>
     </div>
-    <div id="ea_c">
-        <div class="n_main" >
-            <div id="n_content_right_name_r" class="n_content_right_name_r">
-                <ul>
-                    <li>
-                        <span class="n_r_wz1">
-                            <span name="_n_r_wz1">您现在的位置：</span>
-                        </span>
-                        <span class="n_r_wz2">
-                            <a href="{{ route('home') }}">
-                                <span name="_n_r_wz2">首页</span>
-                            </a>
-                        </span>
-                        <span class="n_r_wz3">-</span>
-                        <span class="n_r_wz4">
-                            <span id=''>
-                                <a href="{{ route('news-list', ['category_id' => 1]) }}" target="_self">资讯</a>
-                            </span>
-                        </span>
-                        <span class="n_r_wz5">-</span>
-                        <span class="n_r_wz6">
-                            <a href="" class="curr1">
-                                @if($news->category == 1)
-                                    机构动态
-                                    @elseif($news->category == 2)
-                                    项目报道
-                                    @elseif($news->category == 3)
-                                    乡建观察
-                                    @else
-                                    最新动态
-                                    @endif
-                            </a>
-                        </span>
-                    </li>
-                    <li>
-                        <img src="https://1.rc.xiniu.com/rc/Contents/47175/Images/icpsp1_n_right_wz.png" alt="" />
-                    </li>
-                </ul>
 
+    <div id="ea_c">
+        <div id="xn_mc_casev_1_wrap" class="xn_mc_casev_1_wrap"     >
+            <div class="xn_mc_casev_1_box">
+                <div class="xn_mc_casev_1_title">
+                    <span id='xn_mc_casev_1_Text'>{{ $news->title }}</span>
+                </div>
+                <div class="xn_mc_casev_1_time">
+                    <span id='xn_mc_newsv_1_Text3'>{{ $news->time }}</span>
+                </div>
             </div>
-            <div class="n_content" >
-                <div class="n_content_left" >
-                    <div id="news_view_head" class="news_view_head">
-                        <div class="news_view_title">
-                            <h1>
-                                <span id='ShoveWebControl_Text2'>{{ $news->title }}</span>
-                            </h1>
+        </div>
+
+        <div id="xn_mc_casev_5_wrap" class="xn_mc_casev_5_wrap"     >
+            <div class="xn_mc_casev_5_inner">
+                <div class="xn_mc_casev_5_name">
+                    <a target="_blank" href="{{ route('news-list', ['category_id' => $news->category]) }}"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
+                </div>
+            </div>
+
+            <div class="xn_mc_casev_5_contone">
+                <span id='xn_mc_casev_1_Text41'>
+                    {!! $news->content !!}
+                </span>
+            </div>
+        </div>
+
+        {{--<div id="xn_mc_casev_2_wrap" class="xn_mc_casev_2_wrap"     >--}}
+            {{--<div id="EIMS_C_3_1_ShowInfo"></div>--}}
+            {{--<div id="EIMS_C_3_1_box_div">--}}
+                {{--<span id="EIMS_C_3_1_Upli" class="EIMS_C_3_1_page">上一篇：无</span><span id="EIMS_C_3_1_Downli" class="EIMS_C_3_1_page">下一篇：无</span>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+
+        <div id="xn_h_27_wrap" class="xn_h_27_wrap"     >
+            <div class="xn_h_27_mswenzi">
+                <span name="_xn_h_27_mswenzi|">相关内容</span>
+            </div>
+        </div>
+
+        <div id="xn_mc_news_1ishot_wrap" class="xn_mc_news_1ishot_wrap"     >
+            <ul id="xn_mc_news_1ishot_ul" class="xn_mc_news_1ishot_ul">
+                @foreach($lists as $item)
+                <li class="xn_mc_news_1ishot_li">
+                    <a href="{{ route('news.show', ['id' => $item->id]) }}">
+                        <div class="xn_mc_news_1ishot_img">
+                            <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' />
                         </div>
-                        <div class="news_view_date">
-                            <span id='ShoveWebControl_Text3'>{{ $news->time }}</span>
-                        </div>
-                    </div>
-                    <div id="xn_c_newsv_22_wrap" class="xn_c_newsv_22_wrap"     >
-                        <div class="xn_c_newsv_22_box">
-                            <a href="{{ route('news-list', ['category_id' => $news->category]) }}">
-                                <span name="_newsv_22_nsmore">返回列表</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="xn_c_soluv_left" id="xn_c_soluv_left" >
-                        <div class="xn_c_soluv_left_top">
-                            <span name="_soluv_left_top">相关内容</span>
-                        </div>
-                        {{--<div id="xn_c_22_wrap" class="xn_c_22_wrap">--}}
-                            {{--<div class="xn_c_22_wbox">--}}
-                                {{--<div class="xn_c_22_key">--}}
-                                    {{--<a href="search.aspx-key=%E5%A4%A7%E8%AE%BE%E8%AE%A1.html">--}}
-                                        {{--大设计--}}
-                                    {{--</a>--}}
-                                {{--</div>--}}
-                                {{--<div class="xn_c_22_key">--}}
-                                    {{--<a href="search.aspx-key=%E5%9F%8E%E5%B8%82%E8%BF%90%E8%90%A5.html">--}}
-                                        {{--城市运营--}}
-                                    {{--</a>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="clear"></div>--}}
-                        {{--</div>--}}
-                        <div id="xn_c_newsv_9_wrap" class="xn_c_newsv_9_wrap">
-                            <div class="xn_c_newsv_9_wbox">
-                                <div class="xn_c_newsv_9_cocnt">
-                                    @foreach($lists as $item)
-                                    <div class="xn_c_newsv_9_li">
-                                        <div class="xn_c_newsv_9_cocntlft">
-                                            <a title='艺乡建' href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
-                                                <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' title='艺乡建' />
-                                            </a>
-                                        </div>
-                                        <div class="xn_c_newsv_9_cocntrit">
-                                            <div class="xn_c_newsv_9_cocntrit_name">
-                                                <a title='艺乡建' href="NewsStd_506.html" target="_blank">
-                                                    {{ $item->title }}
-                                                </a>
-                                            </div>
-                                            <div class="xn_c_newsv_9_cocntrit_cont" ej="edit_span">
-                                                <span id='xn_c_newsv_9_Data_ctl00_xn_c_newsv_9_Text4'>
-                                                    {!! $item->content !!}
-                                                </span>
-                                            </div>
-                                            <div class="xn_c_newsv_9_cocntrit_more">
-                                                <a href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    @endforeach
-                                    <div class="clear"></div>
-                                </div>
+                        <div class="xn_mc_news_1ishot_cont">
+                            <div class="xn_mc_news_1ishot_name">
+                                {{ $item->title }}
                             </div>
+                            <div class="xn_mc_news_1ishot_intro" >
+                                <span id='xn_mc_news_1ishot_data_ctl00_xn_mc_news_1ishot_introText'>
+                                    {{ $item->description }}
+                                </span>
+                            </div>
+                            <div class="xn_mc_news_1ishot_more"></div>
                         </div>
-                    </div>
-                </div>
-                <div class="n_content_right" >
-                    <div class="n_content_right_name" >
-                    </div>
-                    <div class="n_content_right_m" >
-                        <div id="news_view" class="news_view">
-                            {!! $news->content !!}
-                            <div class="news_view_cle1"></div>
-                        </div>
-                        {{--<div id="news_view_sx" class="news_view_sx">--}}
-                            {{--<div id="EIMS_C_3_1_ShowInfo" style="COLOR: red"></div>--}}
-                            {{--<div id="EIMS_C_3_1_box_div">--}}
-                                {{--<span id="EIMS_C_3_1_Upli" class="EIMS_C_3_1_page">--}}
-                                    {{--<a href="NewsStd_499.html" id="EIMS_C_3_1_Up">上一篇：<span id="EIMS_C_3_1_UpNew">光合资讯 | 光合集团——塑造城市生命力</span>--}}
-                                    {{--</a>--}}
-                                {{--</span>--}}
-                                {{--<span id="EIMS_C_3_1_Downli" class="EIMS_C_3_1_page">--}}
-                                    {{--<a href="NewsStd_497.html" id="EIMS_C_3_1_Down">下一篇：<span id="EIMS_C_3_1_DownNew">光合资讯 | 风里雨里我在世界水城等你</span>--}}
-                                    {{--</a>--}}
-                                {{--</span>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        <div class="news_view_foot" >
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
+                    </a>
+                </li>
+                    @endforeach
+            </ul>
         </div>
     </div>
 
     @include('layout/footer')
-   </form>
 
-{{--导航半透明--}}
-<script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
+    <div id="ea_sh"></div>
+    <div id="ea_mu"></div>
+
+    <input type="hidden" id="pageId" value="114" />
+    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/E8/C2/CgAGfFvGvjqAMd6MAAAGYv8Ds0o9869.js?d=08202509793" id="js__news_view"></script>
+
+    <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script></form>
 </body>
 </html>
-
-

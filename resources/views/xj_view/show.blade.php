@@ -1,77 +1,46 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
-<head><title>
-        乡建视野
-    </title><meta name="keywords" content="加拿大事业部,光合北京文化创意股份有限公司"/>
-    <meta name="description" content="简 介加拿大光合星球事业部依托温哥华优越的地理位置，以及顶尖的的大学、研究学院等优势，汇集了全球顶尖的城市规划专家、城市设计专家，景观设计专家、艺术家，大学学者，等国际领先的人才资源。合众研究设计：顶尖的城市发展模式，高端专家人才智库，城市品牌运营模式，高端业态品牌植入平台。向中国的城市发展输出、培养..."/>
-    <meta name="applicable-device" content="pc"><meta name="renderer" content="webkit" /><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link id="css__case_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzSAKJDfAAAoWlWT04Q144.css?d=28164629733" />
-    <link rel="stylesheet" type="text/css" href="./css/font.css">
-
-    <link rel="bookmark" href="Images/logo.ico" /><link rel="shortcut icon" href="Images/logo.ico" />
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" /><title>
+        山东事业部 - 城市规划 - 光合北京文化创意股份有限公司
+    </title><meta name="keywords" content="山东事业部,光合北京文化创意股份有限公司"/><meta name="description" content="简 介光合星球山东事业部地处运河文化闻名的聊城东昌湖畔，致力于用光合集团的优势资源及城市品牌运营经验服务于聊城及山东省境内的城乡品牌建设，山东事业部专注于挖掘山东传统文化，通过大设计系统方法论、国际资源..."/><meta name="pc-agent" content="url=http://cn.ps-cc.com/CaseStd_483.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__case_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F7/BF/CgAGfFvs_c-AXCViAAAzBfpXAME654.css?d=08202510340" /><link rel="bookmark" href="../Images/logo.ico" /><link rel="shortcut icon" href="../Images/logo.ico" />
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
-    <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
-    <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject_modified.js"></script>
-    <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject.js"></script>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
 </head>
 <body class="case_view_body">
-<form name="form1" method="get" action="#" id="form1" NavigateId="4" Page="/case_view.aspx?Fid=t4:170:4&amp;Id=484&amp;TypeId=170">
+<form name="form1" method="get" action="#" id="form1" NavigateId="4" Page="/m/case_view.aspx?FId=t4:163:4&amp;Id=483&amp;TypeId=163">
     <input type="hidden" name="__VIEWSTATE" id="
 __VIEWSTATE" value="" />
 
     @include('layout/header')
+
+    <div id="ea_n"></div>
+
     <div id="ea_ba">
-        <div id="products_banner" class="products_banner">
-            <div class="products_banner_m">
-                <img  src="/img/TownShipVision.jpg" alt="" />
+        <div class="about_banner" id="about_banner"     >
+            <div class="about_banner_m">
+                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtAxGAVC8qAAFVmESC6i0651.jpg" alt="" />
             </div>
         </div>
     </div>
-    <div id="ea_c">
-        <div class="n_main" >
-            <div id="n_content_right_name_r" class="n_content_right_name_r">
-                <ul>
-                    <li>
-                        <span class="n_r_wz1">
-                            <span name="_n_r_wz1">您现在的位置：</span>
-                        </span>
-                        <span class="n_r_wz2">
-                            <a href="index.html">
-                                <span name="_n_r_wz2">首页</span>
-                            </a>
-                        </span>
-                        <span class="n_r_wz3">-</span>
-                        <span class="n_r_wz4">
-                            <span id='ShoveWebControl_Text_about'><a href="" target="_self">乡建视野</a></span>
-                        </span>
-                        <span class="n_r_wz5">-</span>
-                        <span class="n_r_wz6">
-                            <a href="" class="clas2">办公室</a>
-                        </span>
-                    </li>
-                    <li>
-                        <img src="https://1.rc.xiniu.com/rc/Contents/47177/Images/icpsp1_n_right_wz.png" alt="" />
-                    </li>
-                </ul>
-            </div>
 
-            @yield('office_detail')
-        </div>
-        <div id="cview_complex_sidebar" class="cview_complex_sidebar">
-        </div>
-        <div id="cview_complex_content" class="cview_complex_content">
-        </div>
-    </div>
+    @yield('office_detail')
 
-    <!--页尾--><!--联系方式-->
+    <br>
+    <br>
+    <br>
+    <br>
     @include('layout/footer')
 
-    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/71/CgAGe1wjF1CAZ8hJAAAKvZYIEes9834.js?d=28164629763" id="js__case_view"></script>
+    <div id="ea_sh"></div>
+    <div id="ea_mu"></div>
 
-</form>
+    <input type="hidden" id="pageId" value="110" />
+    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/E8/C2/CgAGfFvGvjqAIDcwAAASp5oLmcc9737.js?d=08202510355" id="js__case_view"></script>
+
+    <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script></form>
 </body>
 </html>

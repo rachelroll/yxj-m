@@ -22,6 +22,7 @@ class PlatformController extends Controller
                 $item->month = Carbon::createFromDate($item->time)->month;
                 $item->date = Carbon::createFromDate($item->time)->day;
             }
+
             return view('platform/committee', compact('news', 'video'));
         }
     }
