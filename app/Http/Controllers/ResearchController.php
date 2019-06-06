@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\YearBook;
 use Illuminate\Http\Request;
 
 class ResearchController extends Controller
@@ -33,6 +34,7 @@ class ResearchController extends Controller
     // 年鉴
     public function researchYearbook()
     {
-        return view('research/yearbook');
+        $books = YearBook::all();
+        return view('research/yearbook', compact('books'));
     }
 }

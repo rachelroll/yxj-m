@@ -11,6 +11,11 @@
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
+    <style>
+        .xn_mc_about_1_li {
+            float: left;line-height: 1rem;width: 20%;
+        }
+    </style>
 </head>
 <body class="down_body">
     @include('layout/header')
@@ -55,7 +60,7 @@
                 </li>
                 <li class="xn_mc_about_1_li">
                     <a href="{{ route('researchYearbook') }}">
-                        艺乡建年鉴
+                        年鉴
                     </a>
                 </li>
             </ul>
@@ -63,25 +68,33 @@
 
         <div id="xn_mc_down_1_wrap" class="xn_mc_down_1_wrap">
             <ul id="xn_mc_down_1_ul" class="xn_mc_down_1_ul">
+                @if($books)
+                    @foreach($books as $book)
                 <li class="xn_mc_down_1_li">
                     <div class="xn_mc_down_1_li_cont">
-                        <a href='../Private/Files/98a9511c63574c6081f213d9baaf26a1.pdf'>
+                        <a href='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $book->content }}'>
                             <div class="xn_mc_down_1_img">
-                                <img  data-original='https://0.rc.xiniu.com/g2/M00/03/BD/CgAGfFwNwb6AB_UBAAHcxEfSgZQ553.jpg'  alt='光合生态手册'  title='光合生态手册' />
+                                <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $book->cover }}'/>
                                 <div class="xn_mc_down_1_i"></div>
                             </div></a>
                         <div class="xn_mc_down_1_name">
-                            光合生态手册
+                            {{ $book->title }}
                         </div>
-                        <div class="xn_mc_down_1_down"><a href='../Private/Files/98a9511c63574c6081f213d9baaf26a1.pdf'>下载</a></div>
+                        <div class="xn_mc_down_1_down">
+                            <a href='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $book->content }}'>下载</a>
+                        </div>
                     </div>
                 </li>
+                    @endforeach
+                    @endif
             </ul>
             <div class="xn_mc_down_1_more">
             </div>
         </div>
     </div>
 
+    <br>
+    <br>
     @include('layout/footer')
 
     <div id="ea_sh"></div>

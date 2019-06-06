@@ -1,118 +1,118 @@
-@extends('layout/layout')
-@section('title')
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" />
     <title>
-        俱乐部
-    </title>
-@endsection
+        光合活动 - 城市品牌 - 光合北京文化创意股份有限公司
+    </title><meta name="keywords" content="光合活动,光合北京文化创意股份有限公司"/><meta name="description" content="光合活动,光合北京文化创意股份有限公司"/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsSt_ggdt.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
+    <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
+    <link rel="bookmark" href="../Images/logo.ico" /><link rel="shortcut icon" href="../Images/logo.ico" />
 
-@section('content')
+    <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
+
+    <style>
+        ul li {
+            color: rgb(127, 127, 127); font-size: 12px;
+            line-height: 2em;
+        }
+    </style>
+</head>
+<body class="news_body">
+<form name="form1" method="get" action="#" id="form1" NavigateId="2" Page="/m/news.aspx?fid=t2:4:2&amp;TypeId=4">
+    <input type="hidden" name="__VIEWSTATE" id="
+__VIEWSTATE" value="" />
+
+    @include('layout/header')
+    <div id="ea_n"></div>
+
     <div id="ea_ba">
-        <div id="products_banner" class="products_banner">
-            <div class="products_banner_m">
-                <img  src="img/PlantForm.jpg" alt="" />
+        <div class="about_banner" id="about_banner"     >
+            <div class="about_banner_m">
+                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtAzuAXHhRAAG6iEUOZoU453.jpg" alt="" />
             </div>
         </div>
     </div>
+
     <div id="ea_c">
-        <div class="n_main" >
-            <div id="n_content_right_name_r" class="n_content_right_name_r">
+        <div id="n_content_left_t" class="n_content_left_t">
+            <span id="n_content_left_t1" class="n_content_left_t1">
+                <span id='xn_c_75_newstypename'>俱乐部</span>
+            </span>
+            <span class="n_content_left_t2">
+                <span id='xn_c_75_newsename'></span>
+            </span>
+        </div>
+        <div id="xn_mc_about_1_wrap" class="xn_mc_about_1_wrap">
+            <ul class="xn_mc_about_1_ul">
+                <li class="xn_mc_about_1_li">
+                    <a href="{{ route('platform-committee') }}">
+                        项目决策委员会
+                    </a>
+                </li>
+                <li class="xn_mc_about_1_li">
+                    <a href="{{ route('platform-club') }}">
+                        俱乐部
+                    </a>
+                </li>
+            </ul>
+            <ul class="xn_mc_about_1_ul">
+                <li class="xn_mc_about_1_li">
+                    <a href="{{ route('platform-partner') }}">
+                        合作伙伴
+                    </a>
+                </li>
+                <li class="xn_mc_about_1_li">
+                    <a href="{{ route('platform-consultant') }}">
+                        资助顾问
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
+            <div class="xn_c_products_2_text">
+                {{--<p style="line-height: 2em;">--}}
+                    {{--<span style="color: rgb(63, 63, 63);">--}}
+                        {{--<strong>俱乐部</strong>--}}
+                    {{--</span>--}}
+                {{--</p>--}}
                 <ul>
-                    <li>
-                        <span class="n_r_wz1">
-                            <span name="_n_r_wz1">您现在的位置：</span>
-                        </span>
-                        <span class="n_r_wz2">
-                            <a href="{{ route('home') }}">
-                                <span name="_n_r_wz2">首页</span>
-                            </a>
-                        </span>
-                        <span class="n_r_wz3">-</span>
-                        <span class="n_r_wz4">
-                            <span id='{{ route('platform-committee') }}'><a href="ProductsSt_ggxq.html" target="_self">平台资源</a>
-                            </span>
-                        </span>
-                        <span class="n_r_wz5">-</span>
-                        <span class="n_r_wz6">
-                            <a href="" class="curr1">俱乐部</a>
-                        </span>
-                    </li>
-                    <li>
-                        <img src="https://1.rc.xiniu.com/rc/Contents/47175/Images/icpsp1_n_right_wz.png" alt="" />
-                    </li>
+                    <li>乡村振兴工作者</li>
+                    <li>乡村文化发展者</li>
+                    <li>景观规划设计者</li>
+                    <li>乡旅文化爱好者</li>
+                    <li>高校名师传授者</li>
+                    <li>国外友人参观者</li>
+                    <li>国内新生力量养育者</li>
+                    <li>乡建文化缔造者</li>
+                    <li>农村环境保护者</li>
+                    <li>学生生活体验志愿者</li>
+                    <li>普通群众感受者</li>
                 </ul>
-            </div>
-
-            <!--下面的都是ea_c中的而可选项-->
-            <!--加粗的一级标题-->
-            <div id="n_content_left_t" class="n_content_left_t">
-                <div id="n_content_left_t1" class="n_content_left_t1">
-                    <span id='n_content_left_t_data'>俱乐部</span>
-                </div>
-                <div class="n_content_left_t2">
-                    <span id='n_content_left_t_data2'>Club</span>
-                </div>
-            </div>
-
-            <!--简单的一级目录原型-->
-            <div id="n_content_left_cnt" class="n_content_left_cnt">
-                <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
-                    <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0>
-                            <a href="{{ route('platform-committee') }}" rel="nofollow" target="_self">
-                                <span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">项目决策委员会</span>
-                            </a>
-                        </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0>
-                            <a href="{{route('platform-consultant')}}" rel="nofollow" target="_self">
-                                <span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">资助顾问</span>
-                            </a>
-                        </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('platform-partner') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">合作伙伴</span></a>
-                        </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('platform-club') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">俱乐部</span></a>
-                        </li>
-                    </ul>
-                </ul>
-            </div>
-
-            <!--简单的图文竖版,可以插入图片-->
-
-            <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
-            </div>
-
-
-
-
-
-            <!--确保两页存在留白-->
-
-
-            <div class="n_content" >
-                <div class="n_content_left" >
-                </div>
-                <div class="n_content_right" >
-                    <div class="n_content_right_name" >
-                    </div>
-                    <div class="n_content_right_m" >
-                    </div>
-                </div>
-                <div class="clear"></div>
+                <br>
+                <p style="line-height: 2em;">
+                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                        艺乡建俱乐部支持机构、个人以及各个类型的团队参与其中，感受生活，体验乡建视野，感受乡建魅力。艺乡建将会通过专业的支持性服务，帮助乡建乡村组织或者个人实现自身的可持续发展，比如提供项目评估、人力资源、管理咨询、能力建设、行业交流等方面的服务；
+只要你发现不一样的乡村，一心致力于实现美好乡村建设，那么你就是乡村振兴的原动力量无论你是谁，只要你关注艺乡建，并拥有将乡村振兴的梦想以及理念付诸行动的清晰计划，你就是我们所寻找的 “艺乡建”俱乐部成员，我们会帮你完善，帮你实现，帮你圆梦。
+                    </span>
+                </p>
+                <p><br/></p>
             </div>
         </div>
     </div>
+    <br>
+    <br>
 
-    <input type="hidden" id="pageId" value="1" />
-    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
+    @include('layout/footer')
 
-@endsection
+    <div id="ea_sh"></div>
+    <div id="ea_mu"></div>
 
+    <input type="hidden" id="pageId" value="113" />
+    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/F6/A5/CgAGfFvqs6-ANxI3AAARh4Rdkjc6945.js?d=08202509903" id="js__news"></script>
 
-
-
-
-
-
-
-
-
-
+    <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script></form>
+</body>
+</html>
