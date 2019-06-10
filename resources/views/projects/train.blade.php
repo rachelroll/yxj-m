@@ -10,119 +10,48 @@
     <!--特写的字体用css-->
     <link rel="stylesheet" type="text/css" href="../../css/font.css">
 
+    <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
+    <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
+
     <div id="ea_ba">
-        <div id="products_banner" class="products_banner">
-            <div class="products_banner_m">
-                <img  src="../../img/Exmple.jpg" alt="" />
+        <div class="about_banner" id="about_banner"     >
+            <div class="about_banner_m">
+                <img data-original="/img/Exmple.jpg" alt="" />
             </div>
         </div>
     </div>
     <div id="ea_c">
         <div class="n_main" >
-            <div id="n_content_right_name_r" class="n_content_right_name_r">
-                <ul>
-                    <li>
-                        <span class="n_r_wz1">
-                            <span name="_n_r_wz1">您现在的位置：</span>
-                        </span>
-                        <span class="n_r_wz2">
-                                            <a href="{{ route('home') }}">
-                                            <span name="_n_r_wz2">首页</span>
-                                            </a>
-                                        </span>
-                        <span class="n_r_wz3">-</span>
-                        <span class="n_r_wz4">
-                                            <span id='ShoveWebControl_Text_about'><a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self">执行案例</a></span>
-                                        </span>
-                        <span class="n_r_wz5">-</span>
-                        <span class="n_r_wz6">
-                            <a href="" class="curr1">艺乡建培训</a>
-                        </span>
+            <!--下面的都是ea_c中的而可选项-->
+            <div id="n_content_left_t" class="n_content_left_t">
+            <span id="n_content_left_t1" class="n_content_left_t1">
+                <span id='xn_c_75_newstypename'>艺乡建培训</span>
+            </span>
+            </div>
+            <div id="xn_mc_about_1_wrap" class="xn_mc_about_1_wrap">
+                <ul class="xn_mc_about_1_ul">
+                    <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('projects.index', ['category_id' => 22])) xn_mc_about_1_curr @endif">
+                        <a href="#xjxy">
+                            乡建学院
+                        </a>
                     </li>
-                    <li>
-                        <img src="https://1.rc.xiniu.com/rc/Contents/47175/Images/icpsp1_n_right_wz.png" alt="" />
+                    <li class="xn_mc_about_1_li">
+                        <a href="#fqrjh">
+                            发起人计划
+                        </a>
                     </li>
                 </ul>
-            </div>
-
-            <!--下面的都是ea_c中的而可选项-->
-
-            <!--加粗的一级标题-->
-            <div id="n_content_left_t" class="n_content_left_t">
-                <div id="n_content_left_t1" class="n_content_left_t1">
-                    <span id='n_content_left_t_data'>艺乡建培训</span>
-                </div>
-                <div class="n_content_left_t2">
-                    <span id='n_content_left_t_data2'>YXJ Train</span>
-                </div>
-
-            </div>
-
-            <!--简单的一级目录原型-->
-            <div id="n_content_left_cnt" class="n_content_left_cnt">
-                <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
-                    <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0>
-                            <a href="{{ route('projects.index', ['category_id' => 1]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">艺乡建规划</span>
-                            </a>
-                            @if(in_array($category_id, [1, 2, 3, 5, 6]))
-                                <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
-                                    <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">概念规划</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 2]) }}" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">总体规划</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 3]) }}" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">详细规划</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.index', ['category_id' => 5]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">品牌规划</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_5" data_id="4_166" class="left_menu2" type="t" index=5 level=1><a href="{{ route('projects.index', ['category_id' => 6]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">产业振兴</span></a>
-                                    </li>
-                                </ul>
-                            @endif
-                        </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('projects.index', ['category_id' => 4]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">艺乡建行动</span></a>
-                            @if(in_array($category_id, [4, 15, 16, 17, 18, 19, 20, 21]))
-                                <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
-                                    <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 4]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">乡振计划</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 15]) }}" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">乡建人才</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 16]) }}" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">乡建生态</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.index', ['category_id' => 17]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">文化振兴</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_5" data_id="4_166" class="left_menu2" type="t" index=5 level=1><a href="{{ route('projects.index', ['category_id' => 18]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">乡村经营</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_6" data_id="4_164" class="left_menu2" type="t" index=6 level=1><a href="{{ route('projects.index', ['category_id' => 19]) }}" target="_self">
-                                            <span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">产业植入</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_7" data_id="4_165" class="left_menu2" type="t" index=7 level=1><a href="{{ route('projects.index', ['category_id' => 20]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">投资开发</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_8" data_id="4_166" class="left_menu2" type="t" index=8 level=1><a href="{{ route('projects.index', ['category_id' => 21]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">资产管理</span></a>
-                                </ul>
-                            @endif
-                        </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0>
-                            <a href="{{ route('projects.index', ['category_id' => 22]) }}" rel="nofollow" target="_self">
-                                <span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">艺乡建培训</span>
-                            </a>
-                            @if($category_id ==22)
-                                <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
-                                    <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="#xjxy" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">乡建学院</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2" type="t" index=2 level=1><a href="#fqrjh" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">发起人计划</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="#jlrpx" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">经理人培训</span></a>
-                                    </li>
-                                    <li id="left_typeLi_t4301_4" data_id="4_164" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.register') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">培训报名</span></a>
-                                    </li>
-                                </ul>
-                            @endif
-                        </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('aljs') }}" rel="nofollow" target="_self">
-                                <span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">案例检索</span></a>
-                        </li>
-                    </ul>
+                <ul class="xn_mc_about_1_ul">
+                    <li class="xn_mc_about_1_li">
+                        <a href="#jlrpx">
+                            经理人培训
+                        </a>
+                    </li>
+                    <li class="xn_mc_about_1_li">
+                        <a href="{{ route('projects.register') }}">
+                            培训报名
+                        </a>
+                    </li>
                 </ul>
             </div>
 

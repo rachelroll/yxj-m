@@ -19,7 +19,7 @@
     <div id="ea_ba">
         <div class="about_banner" id="about_banner"     >
             <div class="about_banner_m">
-                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/8E/CgAGe1vtAiSACnNnAAHLj9ljk54454.jpg" alt="" />
+                <img  data-original="/img/ContactUs.jpg" alt="" />
             </div>
         </div>
     </div>

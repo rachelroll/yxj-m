@@ -29,15 +29,14 @@ Route::get('projects/category/{category_id}', 'ProjectController@index')->name('
 Route::get('projects/district/{id}', 'ProjectController@district')->name('projects.district');
 // 案例检索页面
 Route::get('projects/aljs', 'ProjectController@aljs')->name('aljs');
+// 报名页
+Route::get('projects/register', 'ProjectController@register')->name('projects.register');
 // 案例详情页
 Route::get('projects/{id}', 'ProjectController@show')->name('projects.show');
 // 搜索
 Route::post('projects', 'ProjectController@search')->name('projects.search');
-// 报名页
-Route::get('projects/register', 'ProjectController@register')->name('projects.register');
 // 上传报名信息
 Route::post('projects/register/store', 'ProjectController@store')->name('projects.register.store');
-
 
 // 联系我们
 Route::get('contact', 'AboutController@index')->name('contact');

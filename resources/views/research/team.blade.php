@@ -46,7 +46,7 @@
     <div id="ea_ba">
         <div class="about_banner" id="about_banner"     >
             <div class="about_banner_m">
-                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtA8eASyGHAAIdm14OQkA516.jpg" alt="" />
+                <img  data-original="/img/Research.jpg" alt="" />
             </div>
         </div>
     </div>

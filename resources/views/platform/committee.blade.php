@@ -31,7 +31,7 @@ __VIEWSTATE" value="" />
     <div id="ea_ba">
         <div class="about_banner" id="about_banner"     >
             <div class="about_banner_m">
-                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtAzuAXHhRAAG6iEUOZoU453.jpg" alt="" />
+                <img  data-original="/img/PlantForm.jpg" alt="" />
             </div>
         </div>
     </div>

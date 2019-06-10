@@ -1,6 +1,12 @@
 <div id='ea_h' moudule='true'>
     <div class='logo' id='logo'>
-        <div id='ea_l'><h1><a href='/'><img class='logoimg' src='/img/logo.png'></a></h1></div>
+        <div id='ea_l'>
+            <h1>
+                <a href='/'>
+                    <img class='logoimg' src='/img/logo.png' style="height:auto">
+                </a>
+            </h1>
+        </div>
     </div>
     <div id='xn_mn_3_wrap' class='xn_mn_3_wrap'>
         <div id='xn_mn_3_menu' class='xn_mn_3_menu'></div>
@@ -75,13 +81,13 @@
                             <span name="ShoveWebControl_VMenu11702427567|T_Navigates|Id|4|Name">执行案例</span>
                         </a>
                         <ul id="type1Ul_t401" class="type1Ul type1Ul_t401">
-                            <li id="type1Li_t401_1" data_id="4_144" class="nav_menu2" type="t" index=1 level=1>
+                            <li id="type1Li_t401" data_id="4_144" class="nav_menu2" type="t" index=1 level=1>
                                 <a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self">
                                     <span name="ShoveWebControl_VMenu1802863644|T_NewsTypes|Id|144|Name">艺乡建规划</span>
                                 </a>
                             </li>
                             <li id="type1Li_t401_2" data_id="4_30" class="nav_menu2" type="t" index=2 level=1>
-                                <a href="{{ route('projects.index', ['category_id' => 6]) }}" target="_self">
+                                <a href="{{ route('projects.index', ['category_id' => 4]) }}" target="_self">
                                     <span name="ShoveWebControl_VMenu1818410975|T_NewsTypes|Id|30|Name">艺乡建行动</span>
                                 </a>
                             </li>
@@ -218,24 +224,24 @@
                     };
                     ShoveWebControl_VMenu1.menu = new BaseControlMenu();
                     ShoveWebControl_VMenu1.menu.Init('ShoveWebControl_VMenu1', ShoveWebControl_VMenu1);</script>
-                <div id='xn_mc_index_14_wrap' class='xn_mc_index_14_wrap'>
-                    <div class='xn_mc_index_14_nrbox'>
-                        <li class='xn_mc_index_14_nrsmall'>
-                            <div class='xn_mc_index_14_name'>
-                                <a target='_blank' href='http://www.ps-cc.com/'>
-                                    EN
-                                </a>
-                            </div>
-                        </li>
-                        <li class='xn_mc_index_14_nrsmall'>
-                            <div class='xn_mc_index_14_name'>
-                                <a target='_blank' href='../../cn.ps-cc.com/index.html'>
-                                    CN
-                                </a>
-                            </div>
-                        </li>
-                    </div>
-                </div>
+                {{--<div id='xn_mc_index_14_wrap' class='xn_mc_index_14_wrap'>--}}
+                    {{--<div class='xn_mc_index_14_nrbox'>--}}
+                        {{--<li class='xn_mc_index_14_nrsmall'>--}}
+                            {{--<div class='xn_mc_index_14_name'>--}}
+                                {{--<a target='_blank' href='http://www.ps-cc.com/'>--}}
+                                    {{--EN--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
+                        {{--<li class='xn_mc_index_14_nrsmall'>--}}
+                            {{--<div class='xn_mc_index_14_name'>--}}
+                                {{--<a target='_blank' href='../../cn.ps-cc.com/index.html'>--}}
+                                    {{--CN--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
     </div>

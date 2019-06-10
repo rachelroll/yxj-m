@@ -19,6 +19,18 @@
 
     {{--video.js--}}
     <link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
+
+    <style>
+        .xn_c_index_63_wrap {
+            width: 100%;
+            margin: auto;
+            position:relative;
+            height: auto;
+            background: url(/img/index_news_bj.jpg) no-repeat center top;
+            background-size: 100% 8.666667rem;
+            overflow:hidden;
+        }
+    </style>
 </head>
 <body class="index_body">
 <!--导航栏页面-->

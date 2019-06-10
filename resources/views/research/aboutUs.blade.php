@@ -22,7 +22,7 @@ __VIEWSTATE" value="" />
     <div id="ea_ba">
         <div class="about_banner" id="about_banner"     >
             <div class="about_banner_m">
-                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtA8eASyGHAAIdm14OQkA516.jpg" alt="" />
+                <img  data-original="/img/Research.jpg" alt="" />
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@ __VIEWSTATE" value="" />
                 </li>
                 <li class="xn_mc_about_1_li">
                     <a href="{{ route('researchYearbook') }}">
-                        艺乡建年鉴
+                        年  鉴
                     </a>
                 </li>
             </ul>

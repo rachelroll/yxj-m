@@ -1,6 +1,4 @@
 @extends('layout/layout')
-
-
 @section('content')
     <body class="index_body">
     <div id='ea_ba' moudule='true'>
@@ -8,22 +6,13 @@
             <div class='xn_index_mba_1_main'>
                 <ul class='xn_index_mba_1_ul'>
                     <li class='xn_index_mba_1_li' lights='0'>
-                        <a href="ProductsSt_ggxq.html">
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/EC/8F/CgAGe1vtAm2AFwhoAAHW7NgcBRk383.jpg'
-                                    src='https://0.rc.xiniu.com/g2/M00/EC/8F/CgAGe1vtAm2AFwhoAAHW7NgcBRk383.jpg'>
-                        </a>
+                        <img data-original='/img/index_banner_001.jpg'>
                     </li>
                     <li class='xn_index_mba_1_li' lights='1'>
-                        <a href="ProductsSt_ggdx.html">
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/EC/8F/CgAGe1vtAkSAGk8bAAGt9wS6foE270.jpg'
-                                    src='https://0.rc.xiniu.com/g2/M00/EC/8F/CgAGe1vtAkSAGk8bAAGt9wS6foE270.jpg'>
-                        </a>
+                        <img data-original='/img/index_banner_002.jpg'>
                     </li>
                     <li class='xn_index_mba_1_li' lights='2'>
-                        <a href="ProductsSt_ggjy.html">
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/EC/8F/CgAGe1vtAlWAP3q9AAJRDYHJZYc748.jpg'
-                                    src='https://0.rc.xiniu.com/g2/M00/EC/8F/CgAGe1vtAlWAP3q9AAJRDYHJZYc748.jpg'>
-                        </a>
+                        <img data-original='/img/index_banner_003.jpg'>
                     </li>
                 </ul>
             </div>
@@ -32,7 +21,6 @@
             <div class='xn_index_mba_1_right'></div>
         </div>
     </div>
-
     <div id='ea_c' moudule='true'>
         <div id='xn_c_index_507_wrap' class='xn_c_index_507_wrap'>
             <div class='xn_c_index_507_topbox'>
@@ -50,7 +38,7 @@
                         <li class='xn_c_index_507_li'>
                             <div class='xn_c_index_507_img'>
                                 <a target='_blank' href="{{ route('themes-village') }}">
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/EA/83/CgAGe1vo7bqARoBmAAHHRXC9TQ0005.jpg'
+                                    <img data-original='/img/index_jszt_001.jpg'
                                          alt='艺乡建'>
                                 </a>
                             </div>
@@ -69,11 +57,10 @@
                                 </div>
                             </div>
                         </li>
-
                         <li class='xn_c_index_507_li'>
                             <div class='xn_c_index_507_img'>
                                 <a target='_blank' href="{{ route('themes-art-system') }}">
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F5/A1/CgAGfFvo8h6ATgB9AAFW3pLnm68424.jpg'>
+                                    <img data-original='/img/index_jszt_002.jpg'>
                                 </a>
                             </div>
                             <div class='xn_c_index_507_tcont'>
@@ -94,7 +81,7 @@
                         <li class='xn_c_index_507_li'>
                             <div class='xn_c_index_507_img'>
                                 <a target='_blank' href="{{ route('themes-industry-system') }}">
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F5/A2/CgAGfFvo8viAeUi7AAFEvS23X-k709.jpg'
+                                    <img data-original='/img/index_jszt_003.jpg'
                                          alt='生态开发' title='生态开发'>
                                 </a>
                             </div>
@@ -113,11 +100,10 @@
                                 </div>
                             </div>
                         </li>
-
                         <li class='xn_c_index_507_li'>
                             <div class='xn_c_index_507_img'>
                                 <a target='_blank' href="{{ route('themes-towns-path') }}">
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F5/A2/CgAGfFvo9FiAAqnXAAE2uPLiuNw196.jpg'>
+                                    <img data-original='/img/index_jszt_004.jpg'>
                                 </a>
                             </div>
                             <div class='xn_c_index_507_tcont'>
@@ -148,7 +134,6 @@
             </div>
         </div>
 
-
         <div id='xn_c_index_268_wrap' class='xn_c_index_268_wrap'>
             <div class='xn_c_index_507_topbox'>
                 <span class='xn_c_index_507_cnName'>
@@ -161,7 +146,7 @@
             <div class='xn_c_index_268_inner'>
                 <div class='xn_c_index_268_type'>
                     <div class='xn_c_index_268_type1'>
-                        <span class='xn_c_case_55_tname'>All</span>
+                        {{--<span class='xn_c_case_55_tname'>All</span>--}}
                         <span class='xn_c_case_55_tname'>国内办公室</span>
                         <span class='xn_c_case_55_tname'>国外办公室</span>
                     </div>
@@ -215,7 +200,6 @@
                                     </div>
                                 </div>
                             </li>
-
                             <li class='xn_c_index_268_li'>
                                 <div class='xn_c_index_268_img'>
                                     <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg'>
@@ -258,31 +242,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class='xn_c_index_268_li'>
-                                <div class='xn_c_index_268_img'>
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E9/CgAGfFvlSR6AdPXsAAEvV6iOiZ8303.jpg'>
-                                </div>
-                                <div class='xn_c_index_268_li_cont'>
-                                    <div>
-                                        <div class='xn_c_index_268_title'>
-                                            <a target='_blank' href="{{ route('view.office.show', ['id' => 'yc']) }}">运城艺乡建志愿者
-                                            </a>
-                                        </div>
-                                        <div class='xn_c_index_268_content'>
-                                            <span id='xn_c_index_268_tData2_ctl01_xn_c_index_268_Data_ctl03_xn_mc_solu_1_introText1'>简 介 不忘初心，只有努力——周洋
-周洋，山西运城学院教师，运城市平面协会副主席，运城市九三学社学院支社副主委，运城市政协委员‍。
-采访周洋，他没有华丽的豪言壮语，相反，周洋用平实的一段话直言自己的心路历程:“绿油油的庄稼地，‍‍篱笆院里‍‍的阳光，敦实的长板凳‍‍，还有去往村里学校的‍‍必经窄桥，‍‍是我对小时生活过的乡村的不灭记忆。‍‍由于父亲工作原因，我小学转学到县城，后来到了省会读大学，选择了艺术设计专业，就一点点的失掉了农民的样子，父母亲很高兴我脱掉了"农皮"，似乎顺理成章完成‍‍村里人到城里人的转变。‍‍‍‍再后来到北京读书，‍‍更深地纳入了‍‍城市的文化气息‍‍，似乎‍‍要把仅剩的那一点乡土的东西‍‍涤荡一清”。</span>
-                                        </div>
-                                        <div class='xn_c_index_268_more'>
-                                            <a target='_blank' href="{{ route('view.office.show', ['id' => 'yc']) }}">MORE</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
                         </ul>
                         <div class='xn_c_index_268_nums'></div>
                     </div>
-
                     <div class='xn_c_index_268_cbox'>
                         <ul class='xn_c_index_268_ul'>
                             <li class='xn_c_index_268_li'>
@@ -307,13 +269,11 @@
                         </ul>
                         <div class='xn_c_index_268_nums'></div>
                     </div>
-
                 </div>
             </div>
 
             <div id='xn_c_index_268_cbox' class='xn_c_index_268_cbox'>
                 <ul class='xn_c_index_268_ul'>
-
                     <li class='xn_c_index_268_li'>
                         <div class='xn_c_index_268_img'>
                             <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' alt='北京事业部' title='北京事业部'>
@@ -353,7 +313,6 @@
                             </div>
                         </div>
                     </li>
-
                     <li class='xn_c_index_268_li'>
                         <div class='xn_c_index_268_img'>
                             <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E7/CgAGfFvlRrmALa2PAACbPsoD-_o565.jpg'>
@@ -397,7 +356,6 @@
                             </div>
                         </div>
                     </li>
-
                     <li class='xn_c_index_268_li'>
                         <div class='xn_c_index_268_img'>
                             <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg'>

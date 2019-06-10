@@ -19,7 +19,7 @@
     <div id="ea_ba">
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
-                <img  src="../../img/NewsAndView.jpg" alt="" />
+                <img  src="../../img/Exmple.jpg" alt="" />
             </div>
         </div>
     </div>

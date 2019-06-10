@@ -18,11 +18,10 @@ __VIEWSTATE" value="" />
     @include('layout/header')
 
     <div id="ea_n"></div>
-
     <div id="ea_ba">
         <div class="about_banner" id="about_banner"     >
             <div class="about_banner_m">
-                <img  data-original="https://0.rc.xiniu.com/g2/M00/EC/90/CgAGe1vtAxGAVC8qAAFVmESC6i0651.jpg" alt="" />
+                <img  data-original="/img/TownShipVision.jpg" alt="" />
             </div>
         </div>
     </div>
