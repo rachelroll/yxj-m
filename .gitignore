@@ -2,8 +2,13 @@
 /public/hot
 /public/storage
 /storage/*.key
+/storage/framework
 /vendor
 .env
+.idea
+.DS_Store
+/public/.DS_Store
+/tests
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
