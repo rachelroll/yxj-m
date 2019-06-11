@@ -127,9 +127,11 @@
     <div id="ea_mu"></div>
 
     <input type="hidden" id="pageId" value="113" />
-    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/F6/A5/CgAGfFvqs6-ANxI3AAARh4Rdkjc6945.js?d=08202509903" id="js__news"></script>
+
+    <script type="text/javascript" src="/js/projects.js" id="js__news"></script>
 
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
+
 
     <script>
         console.log("控制台输出");

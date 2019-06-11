@@ -14,8 +14,6 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
     <link id="css__about" rel="stylesheet" type="text/css"
           href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs8u2AY9cNAAAh83P02CI602.css?d=08202509730"/>
-    <link rel="bookmark" href="../Images/logo.ico"/>
-    <link rel="shortcut icon" href="../Images/logo.ico"/>
 
     <script type="text/javascript">var _jtime = new Date();
 
@@ -60,31 +58,31 @@
             </span>
         </div>
 
-        <div id="xn_mc_about_1_wrap" class="xn_mc_about_1_wrap" >
+        <div id="" class="xn_mc_about_1_wrap" >
             <ul class="xn_mc_about_1_ul">
-                <li class="xn_mc_about_1_li" style="width: 20%">
-                    <a href="{{ route('aboutUs') }}">
+                <li class="xn_mc_about_1_li" style="width: 20%; @if(request()->fullUrl() != route('aboutUs')) background-color: white; @endif" >
+                    <a href="{{ route('aboutUs') }}" @if(request()->fullUrl() != route('aboutUs')) style="color: rgb(127, 127, 127);" @endif>
                         关于我们
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchTeam')) xn_mc_about_1_curr @endif">
                     <a href="{{ route('researchTeam') }}">
                         研究团队
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchContent')) xn_mc_about_1_curr @endif">
                     <a href="{{ route('researchContent') }}">
                         研究内容
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchActivity')) xn_mc_about_1_curr @endif">
                     <a href="{{ route('researchActivity') }}">
                         社会活动
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchYearbook')) xn_mc_about_1_curr @endif">
                     <a href="{{ route('researchYearbook') }}">
-                        年鉴
+                        年  鉴
                     </a>
                 </li>
             </ul>
@@ -138,9 +136,7 @@
 
                 </span>
             </div>
-
         </div>
-
     </div>
 
 
@@ -149,7 +145,7 @@
     <div id="ea_sh"></div>
     <div id="ea_mu"></div>
 
-    <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/E8/C2/CgAGfFvGvjiAP-wNAAAJea-oqHA8769.js?d=08202509730" id="js__about"></script>
+    <script type="text/javascript" src="/js/nav.js" id="js__about"></script>
 
     <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script>
 </body>

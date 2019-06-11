@@ -102,10 +102,6 @@
                     <p class="p2">标准设计和推送:运营模块和管理标准编制、标准化实行培训、标准化实施督查修正。</p>
 
 
-
-
-
-
                 </div>
 
                 <!--确保两页存在留白-->
@@ -122,55 +118,8 @@
                     </div>
                     <div class="clear"></div>
                 </div>
-
-
-
-
-
-
-
-
-
-
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <input type="hidden" id="pageId" value="1" />
         <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>

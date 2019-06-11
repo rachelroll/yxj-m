@@ -6,7 +6,6 @@
     </title><meta name="keywords" content="光合活动,光合北京文化创意股份有限公司"/><meta name="description" content="光合活动,光合北京文化创意股份有限公司"/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsSt_ggdt.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
     <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
-    <link rel="bookmark" href="../Images/logo.ico" /><link rel="shortcut icon" href="../Images/logo.ico" />
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
@@ -37,34 +36,34 @@ __VIEWSTATE" value="" />
     </div>
 
     <div id="ea_c">
-        <div id="n_content_left_t" class="n_content_left_t">
-            <span id="n_content_left_t1" class="n_content_left_t1">
-                <span id='xn_c_75_newstypename'>机构动态</span>
-            </span>
-            <span class="n_content_left_t2">
-                <span id='xn_c_75_newsename'></span>
-            </span>
-        </div>
+        {{--<div id="n_content_left_t" class="n_content_left_t">--}}
+            {{--<span id="n_content_left_t1" class="n_content_left_t1">--}}
+                {{--<span id='xn_c_75_newstypename'>机构动态</span>--}}
+            {{--</span>--}}
+            {{--<span class="n_content_left_t2">--}}
+                {{--<span id='xn_c_75_newsename'></span>--}}
+            {{--</span>--}}
+        {{--</div>--}}
         <div id="xn_mc_about_1_wrap" class="xn_mc_about_1_wrap">
             <ul class="xn_mc_about_1_ul">
-                <li class="xn_mc_about_1_li">
-                    <a href="{{ route('news-list', ['category_id' => 1]) }}">
+                <li class="xn_mc_about_1_li" @if(request()->fullUrl() != route('news-list', ['category_id' => 1])) style="background-color: white;"  @endif>
+                    <a href="{{ route('news-list', ['category_id' => 1]) }}" @if(request()->fullUrl() != route('news-list', ['category_id' => 1])) style="color: rgb(127, 127, 127);"  @endif>
                         机构动态
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('news-list', ['category_id' => 2])) xn_mc_about_1_curr @endif">
                     <a href="{{ route('news-list', ['category_id' => 2]) }}">
                         项目报道
                     </a>
                 </li>
             </ul>
             <ul class="xn_mc_about_1_ul">
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('news-list', ['category_id' => 3])) xn_mc_about_1_curr @endif">
                     <a href="{{ route('news-list', ['category_id' => 3]) }}">
                         乡建观察
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('news-list', ['category_id' => 4])) xn_mc_about_1_curr @endif">
                     <a href="{{ route('news-list', ['category_id' => 4]) }}">
                         最新动态
                     </a>

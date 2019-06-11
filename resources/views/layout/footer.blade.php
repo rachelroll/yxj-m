@@ -1,6 +1,7 @@
 <div id='ea_b' moudule='true'>
     <div class='xn_mb_1_wrap' id='xn_mb_1_wrap'>
-        <span class='xn_mb_1_copy'>艺乡建</span>
+        <span class='xn_mb_1_copy'>Copyright ©2018 - 2021 艺乡建</span>
+        <span class='xn_mb_1_copy'>京ICP备19002531号-1</span>
         <div class='xn_mu_1_wrap' id='xn_mu_1_wrap'>
             <ul>
                 <li class='xn_mu_1_li1'>
@@ -42,3 +43,4 @@
         </div>
     </div>
 </div>
+
