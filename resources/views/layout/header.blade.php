@@ -3,7 +3,7 @@
         <div id='ea_l'>
             <h1>
                 <a href='/'>
-                    <img class='logoimg' src='/img/logo.png' style="height:auto">
+                    <img class='logoimg' src='/img/logo.png' style="height:auto; width: 41px;">
                 </a>
             </h1>
         </div>
@@ -224,24 +224,6 @@
                     };
                     ShoveWebControl_VMenu1.menu = new BaseControlMenu();
                     ShoveWebControl_VMenu1.menu.Init('ShoveWebControl_VMenu1', ShoveWebControl_VMenu1);</script>
-                {{--<div id='xn_mc_index_14_wrap' class='xn_mc_index_14_wrap'>--}}
-                    {{--<div class='xn_mc_index_14_nrbox'>--}}
-                        {{--<li class='xn_mc_index_14_nrsmall'>--}}
-                            {{--<div class='xn_mc_index_14_name'>--}}
-                                {{--<a target='_blank' href='http://www.ps-cc.com/'>--}}
-                                    {{--EN--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</li>--}}
-                        {{--<li class='xn_mc_index_14_nrsmall'>--}}
-                            {{--<div class='xn_mc_index_14_name'>--}}
-                                {{--<a target='_blank' href='../../cn.ps-cc.com/index.html'>--}}
-                                    {{--CN--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</li>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
             </div>
         </div>
     </div>

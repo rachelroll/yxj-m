@@ -186,7 +186,7 @@ __VIEWSTATE" value="" />
                             @foreach($projects as $item)
                                 <li class="xn_mc_news_1_li">
                                     <i class="xn_mc_news_1_li_i"></i>
-                                    <a href="{{ route('news.show', ['id' => $item->id]) }}">
+                                    <a href="{{ route('projects.show', ['id' => $item->id]) }}">
                                         <div class="xn_mc_news_1_img">
                                             <img data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' />
                                         </div>
@@ -210,8 +210,6 @@ __VIEWSTATE" value="" />
             </div>
         </div>
     </div>
-    <br>
-    <br>
 
     @include('layout/footer')
 

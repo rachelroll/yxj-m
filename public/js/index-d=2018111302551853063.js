@@ -16,7 +16,7 @@
             });
             });
             $(".nav_main>ul>li>a").removeAttr("href");
-            $(".nav_main>ul>li:first>a").attr("href","/index.aspx");
+            $(".nav_main>ul>li:first>a").attr("href","/");
             $(".nav_main>ul>li>a").click(function(){
                 if($(this).siblings("ul").css("display") == "block"){
                     $(this).siblings("ul").fadeOut();
@@ -48,45 +48,45 @@
         var $main = $(".xn_index_mba_1_main");
         var $ul = $(".xn_index_mba_1_ul");
         var $li = $ul.children("li");
-        var $lights = $(".xn_index_mba_1_lights");    
-        var speed =300;    
+        var $lights = $(".xn_index_mba_1_lights");
+        var speed =300;
         var $curr_class = "xn_index_mba_1_lightsCurr";
         var timeInterval = 3000;
         $li.css("width",parseInt($main.outerWidth(true)));
-        $ul.css("width",$li.length * $li.outerWidth(true));   
+        $ul.css("width",$li.length * $li.outerWidth(true));
         $lights.html("");
         $li.each(function(){
             $lights.append("<span></span>");
             $(this).attr("lights",$(this).index());
         });
-        var idx;        
+        var idx;
         var size = $li.size();
         //点击焦点图切换：
         $lights.children().first().addClass($curr_class);
-        $lights.children("span").click(function(){      
+        $lights.children("span").click(function(){
             var index = $(this).index();
             idx = parseInt($ul.children().first().attr("lights"));
             var num = index-idx;
             num = num>0?num:num+size;
-            for(var i = 0;i < num ;i++){                        
-                $ul.append($ul.children().first()); 
+            for(var i = 0;i < num ;i++){
+                $ul.append($ul.children().first());
             }
             $ul.stop().animate({"left":0},speed);
             idx = $ul.children().first().attr("lights");
             $lights.children().eq(idx).addClass($curr_class).siblings().removeClass($curr_class);
             //$ul.animate({"left":-index*$li.outerWidth(true)},speed);
-            //$(this).addClass($curr_class).siblings().removeClass($curr_class);       
-        });  
-        //左右切换： 
-        function nextImg(){ 
-            $ul.stop().animate({left:"-"+$li.outerWidth(true) +"px"},speed,function(){              
-                $ul.append($ul.children().first());         
+            //$(this).addClass($curr_class).siblings().removeClass($curr_class);
+        });
+        //左右切换：
+        function nextImg(){
+            $ul.stop().animate({left:"-"+$li.outerWidth(true) +"px"},speed,function(){
+                $ul.append($ul.children().first());
                 $ul.css("left",0);
                 idx = $ul.children().first().attr("lights");
                 $lights.children().eq(idx).addClass($curr_class).siblings().removeClass($curr_class);
                 return idx;
-            }); 
-        }           
+            });
+        }
         function prevImg(){
             $ul.css('left',-$li.outerWidth(true));
             $ul.prepend($ul.children().last());
@@ -125,12 +125,12 @@
         });
         var dragDistance = 80 ;
         var dragY = 20;
-    } 
-    } 
+    }
+    }
 $(function(){
   banner();
   $(window).resize(function(){ banner();})
-});  
+});
 /*end_xn_index_mba_1_wrap*/
 /*ea_ba*/
 /*ea_c*/

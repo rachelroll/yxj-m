@@ -133,7 +133,6 @@
                 <div id='xn_c_index_507_nums' class='xn_c_index_507_nums'></div>
             </div>
         </div>
-
         <div id='xn_c_index_268_wrap' class='xn_c_index_268_wrap'>
             <div class='xn_c_index_507_topbox'>
                 <span class='xn_c_index_507_cnName'>
@@ -152,11 +151,11 @@
                     </div>
                 </div>
                 <div class='xn_c_index_268_cont'>
-                    <div class='xn_c_index_268_cbox'>
-                        <ul class='xn_c_index_268_ul'>
-                        </ul>
-                        <div class='xn_c_index_268_nums'></div>
-                    </div>
+                    {{--<div class='xn_c_index_268_cbox'>--}}
+                        {{--<ul class='xn_c_index_268_ul'>--}}
+                        {{--</ul>--}}
+                        {{--<div class='xn_c_index_268_nums'></div>--}}
+                    {{--</div>--}}
                     <div class='xn_c_index_268_cbox'>
                         <ul class='xn_c_index_268_ul'>
                             <li class='xn_c_index_268_li'>
@@ -270,115 +269,6 @@
                         <div class='xn_c_index_268_nums'></div>
                     </div>
                 </div>
-            </div>
-
-            <div id='xn_c_index_268_cbox' class='xn_c_index_268_cbox'>
-                <ul class='xn_c_index_268_ul'>
-                    <li class='xn_c_index_268_li'>
-                        <div class='xn_c_index_268_img'>
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' alt='北京事业部' title='北京事业部'>
-                        </div>
-                        <div class='xn_c_index_268_li_cont'>
-                            <div>
-                                <div class='xn_c_index_268_title'>
-                                    <a target='_blank' href="{{ route('view.office.show', ['id' => 'bj']) }}">
-                                        北京艺乡建事业部
-                                    </a>
-                                </div>
-                                <div class='xn_c_index_268_content'>
-                                    <span id='xn_mc_case_1_data_ctl00_xn_mc_solu_1_introText1'>简 介 北京艺乡建事业部创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span>
-                                </div>
-                                <div class='xn_c_index_268_more'>
-                                    <a href="{{ route('view.office.show', ['id' => 'bj']) }}" target='_self'>MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class='xn_c_index_268_li'>
-                        <div class='xn_c_index_268_img'>
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/EB/BA/CgAGe1vrgp2AYaTnAACBui7_brM960.jpg'>
-                        </div>
-                        <div class='xn_c_index_268_li_cont'>
-                            <div>
-                                <div class='xn_c_index_268_title'>
-                                    <a target='_blank' href="{{ route('view.office.show', ['id' => 'jnd']) }}">加拿大艺乡建事业部
-                                    </a>
-                                </div>
-                                <div class='xn_c_index_268_content'>
-                                    <span id='xn_mc_case_1_data_ctl01_xn_mc_solu_1_introText1'>简介 加拿大艺乡建事业部创立于2010年，总部位于加拿大。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span>
-                                </div>
-                                <div class='xn_c_index_268_more'>
-                                    <a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target='_self'>MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class='xn_c_index_268_li'>
-                        <div class='xn_c_index_268_img'>
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E7/CgAGfFvlRrmALa2PAACbPsoD-_o565.jpg'>
-                        </div>
-                        <div class='xn_c_index_268_li_cont'>
-                            <div>
-                                <div class='xn_c_index_268_title'>
-                                    <a target='_blank' href="{{ route('view.office.show', ['id' => 'yc']) }}">运城艺乡建志愿者
-                                    </a>
-                                </div>
-                                <div class='xn_c_index_268_content'>
-                                    <span id='xn_mc_case_1_data_ctl02_xn_mc_solu_1_introText1'>简 介 不忘初心，只有努力——周洋
-周洋，山西运城学院教师，运城市平面协会副主席，运城市九三学社学院支社副主委，运城市政协委员‍。
-采访周洋，他没有华丽的豪言壮语，相反，周洋用平实的一段话直言自己的心路历程:“绿油油的庄稼地，‍‍篱笆院里‍‍的阳光，敦实的长板凳‍‍，还有去往村里学校的‍‍必经窄桥，‍‍是我对小时生活过的乡村的不灭记忆。‍‍由于父亲工作原因，我小学转学到县城，后来到了省会读大学，选择了艺术设计专业，就一点点的失掉了农民的样子，父母亲很高兴我脱掉了"农皮"，似乎顺理成章完成‍‍村里人到城里人的转变。‍‍‍‍再后来到北京读书，‍‍更深地纳入了‍‍城市的文化气息‍‍，似乎‍‍要把仅剩的那一点乡土的东西‍‍涤荡一清”。</span>
-                                </div>
-                                <div class='xn_c_index_268_more'>
-                                    <a href="{{ route('view.office.show', ['id' => 'yc']) }}" target='_self'>MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class='xn_c_index_268_li'>
-                        <div class='xn_c_index_268_img'>
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSM2Ab7WDAADWmVQsTR4890.jpg'>
-                        </div>
-                        <div class='xn_c_index_268_li_cont'>
-                            <div>
-                                <div class='xn_c_index_268_title'>
-                                    <a target='_blank' href="{{ route('view.office.show', ['id' => 'hz']) }}">杭州艺乡建志愿者
-                                    </a>
-                                </div>
-                                <div class='xn_c_index_268_content'>
-                                    <span id='xn_mc_case_1_data_ctl03_xn_mc_solu_1_introText1'>简 介 家园在望，跬步无休——高勇
-天行不止，时序如轮，转我去日，周三十春，曰高曰勇，泛泛此身，字子字如，昂昂斯人，青春往日，负笈南都。
-黑白坚柔，劳劳一身，春夏冬秋，心疲情逸，志劳思悠，奇山丽水，豁耳盈眸，屋舍荡然，居人去休，墙倾土废，铭内深忧，涓埃有助，聚海可筹，借庄严力，致广大谋，老养幼教，业积室稠，坠绪再起，斯文复遒，家园在望，跬步无休。
-用一段文言文介绍自己，笔者还是头一次遇到，眼前的高勇温文尔雅，谈起自己对乡建的认识，结合自己的实际工作案例，他侃侃而谈。</span>
-                                </div>
-                                <div class='xn_c_index_268_more'>
-                                    <a href="{{ route('view.office.show', ['id' => 'hz']) }}" target='_self'>MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class='xn_c_index_268_li'>
-                        <div class='xn_c_index_268_img'>
-                            <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg'>
-                        </div>
-                        <div class='xn_c_index_268_li_cont'>
-                            <div>
-                                <div class='xn_c_index_268_title'>
-                                    <a target='_blank' href="{{ route('view.office.show', ['id' => 'hb']) }}">湖北艺乡建志愿者
-                                    </a>
-                                </div>
-                                <div class='xn_c_index_268_content'>
-                                    <span id='xn_mc_case_1_data_ctl04_xn_mc_solu_1_introText1'>简 介 家园在望，跬步无休——高勇
-天行不止，时序如轮，转我去日，周三十春，曰高曰勇，泛泛此身，字子字如，昂昂斯人，青春往日，负笈南都。
-黑白坚柔，劳劳一身，春夏冬秋，心疲情逸，志劳思悠，奇山丽水，豁耳盈眸，屋舍荡然，居人去休，墙倾土废，铭内深忧，涓埃有助，聚海可筹，借庄严力，致广大谋，老养幼教，业积室稠，坠绪再起，斯文复遒，家园在望，跬步无休。
-用一段文言文介绍自己，笔者还是头一次遇到，眼前的高勇温文尔雅，谈起自己对乡建的认识，结合自己的实际工作案例，他侃侃而谈。</span>
-                                </div>
-                                <div class='xn_c_index_268_more'>
-                                    <a href="{{ route('view.office.show', ['id' => 'hb']) }}" target='_self'>MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
 

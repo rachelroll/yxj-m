@@ -30,6 +30,7 @@
             background-size: 100% 8.666667rem;
             overflow:hidden;
         }
+
     </style>
 </head>
 <body class="index_body">

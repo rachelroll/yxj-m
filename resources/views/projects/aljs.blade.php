@@ -15,7 +15,7 @@
     <link href="/css/idangerous.swiper.css" rel="stylesheet" media="all" />
     <link href="/css/layout.css" rel="stylesheet" media="all" />
 
-    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/verify.css">
     {{--<script type="text/javascript" src="/js/jquery.min.js"></script>--}}
 
@@ -30,6 +30,10 @@
         ul li {
             color: rgb(127, 127, 127); font-size: 12px;
             line-height: 2em;
+        }
+
+        .labels a {
+            margin: 10px 0 0 10px;
         }
     </style>
 </head>
@@ -56,39 +60,40 @@
             <div id="n_content_left_t1" class="n_content_left_t1">
                 <span id='n_content_left_t_data'>案例检索</span>
             </div>
-            {{--<div class="n_content_left_t2">--}}
-                {{--<span id='n_content_left_t_data2'>Registration training</span>--}}
-            {{--</div>--}}
+            <div class="n_content_left_t2">
+                <span id='n_content_left_t_data2'>Example Search</span>
+            </div>
         </div>
 
-        <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
-            <div class="xn_c_products_2_text collapse navbar-collapse">
-                <form class="form-inline my-2 my-lg-0" action="{{ route('projects.search') }}" method="POST">
+        <div id="xn_c_products_2_warp" class="xn_c_products_2_warp" style="padding: 20px">
+            <div class="" style="margin: 0 auto; width: 100%">
+                <form class="form-inline" action="{{ route('projects.search') }}" method="POST">
                     @csrf
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"  name="search_item">
-                    <button class="btn btn-outline-success my-2 mr-sm-0"type="submit">搜索</button>
+                    <input class="form-control col-8" type="search" style="font-size: 12px; margin-right: 10px;" placeholder="Search" aria-label="Search"  name="search_item">
+                    <button class="btn-sm btn-secondary col-3" style="font-size: 14px" type="submit">搜索</button>
                 </form>
-                <div class="yiti-search">
+                <div class="labels">
                     <div class="h20"></div>
-                    <a href="{{ route('projects.index', ['category_id' => 1]) }}" class="yiti-style1 yiti-style">概念规划</a>
-                    <a href="{{ route('projects.index', ['category_id' => 2]) }}" class="yiti-style2 yiti-style">总体规划</a>
-                    <a href="{{ route('projects.index', ['category_id' => 3]) }}" class="yiti-style3 yiti-style">详细规划</a>
-                    <a href="{{ route('projects.index', ['category_id' => 21]) }}" class="yiti-style6 yiti-style">资产管理</a>
-                    <a href="{{ route('projects.index', ['category_id' => 5]) }}l" class="yiti-style1 yiti-style">品牌规划</a>
-                    <a href="{{ route('projects.index', ['category_id' => 20]) }}l" class="yiti-style3 yiti-style">投资开发</a>
-                    <a href="{{ route('projects.index', ['category_id' => 6]) }}" class="yiti-style2 yiti-style">产业振兴</a>
-                    <a href="{{ route('projects.index', ['category_id' => 15]) }}" class="yiti-style4 yiti-style">乡建人才</a>
-                    <a href="{{ route('projects.index', ['category_id' => 16]) }}" class="yiti-style3 yiti-style">乡建生态</a>
-                    <a href="{{ route('projects.index', ['category_id' => 4]) }}" class="yiti-style6 yiti-style">乡振计划</a>
-                    <a href="{{ route('projects.index', ['category_id' => 17]) }}" class="yiti-style4 yiti-style">文化振兴</a>
-                    <a href="{{ route('projects.index', ['category_id' => 18]) }}" class="yiti-style5 yiti-style">乡村经营</a>
-                    <a href="{{ route('projects.index', ['category_id' => 19]) }}" class="yiti-style3 yiti-style">产业植入</a>
+                    <a href="{{ route('projects.index', ['category_id' => 1]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px">概念规划</a>
+                    <a href="{{ route('projects.index', ['category_id' => 2]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px"  >总体规划</a>
+                    <a href="{{ route('projects.index', ['category_id' => 3]) }}" class="btn btn-secondary btn-sm" style="font-size: 14px"  >详细规划</a>
+                    <a href="{{ route('projects.index', ['category_id' => 21]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px" >资产管理</a>
+                    <a href="{{ route('projects.index', ['category_id' => 5]) }}" class="btn btn-secondary btn-sm" style="font-size: 14px" >品牌规划</a>
+                    <a href="{{ route('projects.index', ['category_id' => 20]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px">投资开发</a>
+                    <a href="{{ route('projects.index', ['category_id' => 6]) }}" class="btn btn-secondary btn-sm" style="font-size: 14px"  >产业振兴</a>
+                    <a href="{{ route('projects.index', ['category_id' => 15]) }}" class="btn btn-secondary btn-sm" style="font-size: 14px" >乡建人才</a>
+                    <a href="{{ route('projects.index', ['category_id' => 16]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px" >乡建生态</a>
+                    <a href="{{ route('projects.index', ['category_id' => 4]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px"  >乡振计划</a>
+                    <a href="{{ route('projects.index', ['category_id' => 17]) }}" class="btn btn-outline-secondary btn-sm" style="font-size: 14px" >文化振兴</a>
+                    <a href="{{ route('projects.index', ['category_id' => 18]) }}" class="btn btn-secondary btn-sm" style="font-size: 14px" >乡村经营</a>
+                    <a href="{{ route('projects.index', ['category_id' => 19]) }}" class="btn btn-secondary btn-sm" style="font-size: 14px" >产业植入</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<br>
+<br>
 @include('layout/footer')
 
 <div id="ea_sh"></div>
@@ -96,7 +101,6 @@
 
 <input type="hidden" id="pageId" value="113" />
 <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/F6/A5/CgAGfFvqs6-ANxI3AAARh4Rdkjc6945.js?d=08202509903" id="js__news"></script>
-
 <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
 <script type="text/javascript">
