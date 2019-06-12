@@ -325,9 +325,9 @@
                 </span>
             </div>
         </div>
-        <div class='xn_c_index_303_main' style="margin-top: 20px">
-            <video playsinline webkit-playsinline muted autoplay style="margin: 0 auto; object-fit:fill;" class="video-js vjs-big-play-centered" controls preload="auto" width="380px" height="300px"
-                   data-setup='{ "autoplay": true, "preload": "true", "loop":true }'>
+        <div class='xn_c_index_303_main' style="margin-top: 20px; z-index:-1">
+            <video playsinline webkit-playsinline muted style="margin: 0 auto; object-fit:fill;" class="video-js vjs-big-play-centered" controls preload="auto" width="380px" height="300px"
+                   data-setup='{ "autoplay": false, "preload": "true", "loop":true }' id="video">
                 <source src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" type="video/mp4">
             </video>
         </div>
@@ -339,4 +339,9 @@
 
 {{--引入 video.js--}}
 <script src="http://vjs.zencdn.net/6.2.0/video.js"></script>
+
+    <script type="text/javascript">
+        var video=document.getElementById("video");
+        video.controls=false;
+    </script>
 
