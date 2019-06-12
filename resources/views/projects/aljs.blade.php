@@ -69,8 +69,8 @@
             <div class="" style="margin: 0 auto; width: 100%">
                 <form class="form-inline" action="{{ route('projects.search') }}" method="POST">
                     @csrf
-                    <input class="form-control col-8" type="search" style="font-size: 12px; margin-right: 10px;" placeholder="Search" aria-label="Search"  name="search_item">
-                    <button class="btn-sm btn-secondary col-3" style="font-size: 14px" type="submit">搜索</button>
+                    <input class="form-control col-8" type="search" style="font-size: 12px; margin-right: 10px; padding: 10px; height: 50px" placeholder="Search" aria-label="Search"  name="search_item">
+                    <button class="btn btn-sm btn-outline-success col-3" style="font-size: 14px; background: white" type="submit">搜索</button>
                 </form>
                 <div class="labels">
                     <div class="h20"></div>
@@ -94,6 +94,7 @@
 </div>
 <br>
 <br>
+
 @include('layout/footer')
 
 <div id="ea_sh"></div>
@@ -117,5 +118,6 @@
 
 <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script>
 {{--</form>--}}
+
 </body>
 </html>
