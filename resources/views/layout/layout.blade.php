@@ -32,6 +32,9 @@
             overflow:hidden;
         }
 
+        video::-webkit-media-controls {
+            display:none !important;
+        }
     </style>
 </head>
 <body class="index_body">
