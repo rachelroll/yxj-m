@@ -6,6 +6,7 @@
     <meta name="HandheldFriendly" content="true" />
     <meta http-equiv="x-rim-auto-match" content="none" />
     <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>
         艺乡建
     </title>
