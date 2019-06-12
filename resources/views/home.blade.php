@@ -334,8 +334,6 @@
                 class="video-js vjs-big-play-centered vjs-fluid"
                 controls
                 preload="auto"
-                {{--width="380px"--}}
-                {{--height="300px"--}}
                 data-setup='{ "autoplay": false, "preload": "true", "loop":true }'
                 id="video"
                 poster="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/WechatIMG8.png"

@@ -202,9 +202,9 @@ __VIEWSTATE" value="" />
                             @endforeach
                         @endif
                     </ul>
-                    <div class="xn_mc_news_1_more">
-                        <input name="xn_mc_news_1_moreBtn" type="button" id="xn_mc_news_1_moreBtn" PageIndex="1" PageName="pageindex" value="MORE" FilterId="xn_mc_nnews_1_ul" class="xn_mc_news_1_moreBtn" onclick="ShoveWebControlGetMoreData(this)" Url="/m/news_list.aspx?TypeId=5" PageRows="6" PageSize="6" FillId="xn_mc_news_1_ul" TotallRows="35" />
-                    </div>
+                    {{--<div class="xn_mc_news_1_more">--}}
+                        {{--<input name="xn_mc_news_1_moreBtn" type="button" id="xn_mc_news_1_moreBtn" PageIndex="1" PageName="pageindex" value="MORE" FilterId="xn_mc_nnews_1_ul" class="xn_mc_news_1_moreBtn" onclick="ShoveWebControlGetMoreData(this)" Url="/m/news_list.aspx?TypeId=5" PageRows="6" PageSize="6" FillId="xn_mc_news_1_ul" TotallRows="35" />--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
