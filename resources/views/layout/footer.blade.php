@@ -46,3 +46,7 @@
     </div>
 </div>
 
+<script>
+    window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "https://m.yxj.oeaudio.com/" :  "http://yxj.oeaudio.com/";
+</script>
+
