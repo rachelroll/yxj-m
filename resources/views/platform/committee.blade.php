@@ -84,7 +84,7 @@ __VIEWSTATE" value="" />
                 </p>
                 <p><br/></p>
                 <div id="xn_mc_news_1_wrap" class="xn_mc_news_1_wrap">
-                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul">
+                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul"  style="border-bottom: 1px solid #dcdcdc;">
                         @if($news)
                             @foreach($news as $item)
                         <li class="xn_mc_news_1_li">

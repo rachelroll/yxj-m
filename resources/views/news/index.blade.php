@@ -73,7 +73,7 @@ __VIEWSTATE" value="" />
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
                 <div id="xn_mc_news_1_wrap" class="xn_mc_news_1_wrap">
-                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul infinite-scroll">
+                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul infinite-scroll"  style="border-bottom: 1px solid #dcdcdc;">
                         @if($news)
                             @foreach($news as $item)
                                 <li class="xn_mc_news_1_li">

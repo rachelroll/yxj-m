@@ -180,7 +180,7 @@ __VIEWSTATE" value="" />
                 <p class="p3">乡建案例</p>
                 <br>
                 <div id="xn_mc_news_1_wrap" class="xn_mc_news_1_wrap">
-                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul">
+                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul"  style="border-bottom: 1px solid #dcdcdc;">
                         @if($projects)
                             @foreach($projects as $item)
                                 <li class="xn_mc_news_1_li">
