@@ -32,15 +32,15 @@
             overflow:hidden;
         }
 
-        video::-webkit-media-controls-start-playback-button {
-        /*video视频不显示默认的中心的play icon*/
-        opacity: 0;
-        }
+        /*video::-webkit-media-controls-start-playback-button {*/
+        /*!*video视频不显示默认的中心的play icon*!*/
+        /*opacity: 0;*/
+        /*}*/
 
-        video::-webkit-media-controls-overlay-play-button {
-        /*隐藏android端点击control中暂停按钮时视频中心出现的play icon*/
-        display: none;
-        }
+        /*video::-webkit-media-controls-overlay-play-button {*/
+        /*!*隐藏android端点击control中暂停按钮时视频中心出现的play icon*!*/
+        /*display: none;*/
+        /*}*/
     </style>
 </head>
 <body class="index_body">

@@ -326,8 +326,20 @@
             </div>
         </div>
         <div class='xn_c_index_303_main' style="margin-top: 20px; z-index:-1">
-            <video playsinline webkit-playsinline muted style="margin: 0 auto; object-fit:fill;" class="video-js vjs-big-play-centered" controls preload="auto" width="380px" height="300px"
-                   data-setup='{ "autoplay": false, "preload": "true", "loop":true }' id="video">
+            <video
+                playsinline
+                webkit-playsinline
+                muted
+                style="margin: 0 auto; object-fit:fill;"
+                class="video-js vjs-big-play-centered vjs-fluid"
+                controls
+                preload="auto"
+                {{--width="380px"--}}
+                {{--height="300px"--}}
+                data-setup='{ "autoplay": false, "preload": "true", "loop":true }'
+                id="video"
+                poster="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/WechatIMG8.png"
+            >
                 <source src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" type="video/mp4">
             </video>
         </div>
