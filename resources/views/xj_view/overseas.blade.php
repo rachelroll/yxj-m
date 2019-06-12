@@ -31,22 +31,13 @@ __VIEWSTATE" value="" />
         <div id="n_content_left_cnt" class="n_content_left_cnt">
             <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" style="display:none">
                 <ul id="left_typeUl_t400" class="left_typeUl left_typeUl_t400">
-                    <li id="left_typeLi_t400_1" data_id="4_144" class="left_menu1" type="t" index=1 level=0><a href="CaseSt_144.html" target="_self"><span name="ShoveWebControl_VMenu21557864841|T_NewsTypes|Id|144|Name">All</span></a>
+                    <li id="left_typeLi_t400_2" data_id="4_30" class="left_menu1" @if(request()->fullUrl() != route('view-internal-office')) style="background-color: white;" @endif type="t" index=2 level=0>
+                        <a href="{{ route('view-internal-office') }}" @if(request()->fullUrl() != route('aboutUs')) style="color: rgb(127, 127, 127);" @endif target="_self">
+                            <span name="ShoveWebControl_VMenu249352237|T_NewsTypes|Id|30|Name">国内事业部</span>
+                        </a>
                     </li>
-                    <li id="left_typeLi_t400_2" data_id="4_30" class="left_menu1" type="t" index=2 level=0><a href="CaseSt_csgxal.html" target="_self"><span name="ShoveWebControl_VMenu249352237|T_NewsTypes|Id|30|Name">国内事业部</span></a>
-                        <ul id="left_typeUl_t4301" style="display:none" expend=0 class="left_typeUl left_typeUl_t4301">
-                            <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="{{ route('view.office.show', ['id' => 'bj']) }}" target="_self"><span name="ShoveWebControl_VMenu21469890452|T_NewsTypes|Id|162|Name">北京</span></a>
-                            </li>
-                            <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2" type="t" index=2 level=1><a href="{{ route('view.office.show', ['id' => 'hb']) }}" target="_self"><span name="ShoveWebControl_VMenu2972878561|T_NewsTypes|Id|163|Name">湖北</span></a>
-                            </li>
-                            <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="{{ route('view.office.show', ['id' => 'hz']) }}" target="_self"><span name="ShoveWebControl_VMenu2685323289|T_NewsTypes|Id|164|Name">杭州</span></a>
-                            </li>
-                            <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2" type="t" index=4 level=1><a href="{{ route('view.office.show', ['id' => 'yc']) }}" target="_self"><span name="ShoveWebControl_VMenu21645302171|T_NewsTypes|Id|165|Name">运城</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li id="left_typeLi_t400_3" data_id="4_140" class="left_menu1" type="t" index=3 level=0><a href="{{ route('view-overseas-office') }}" target="_self"><span name="ShoveWebControl_VMenu21246757151|T_NewsTypes|Id|140|Name">国际事业部</span></a>
-                        <ul id="left_typeUl_t41401" style="display:none" expend=0 class="left_typeUl left_typeUl_t41401">
+                    <li id="left_typeLi_t400_3" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('view-overseas-office')) left_menu1_cur @endif" type="t" index=3 level=0><a href="{{ route('view-overseas-office') }}" target="_self"><span name="ShoveWebControl_VMenu21246757151|T_NewsTypes|Id|140|Name">国际事业部</span></a>
+                        <ul id="left_typeUl_t41401" expend=0 class="left_typeUl left_typeUl_t41401">
                             <li id="left_typeLi_t41401_1" data_id="4_167" class="left_menu2" type="t" index=1 level=1><a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target="_self"><span name="ShoveWebControl_VMenu21860105689|T_NewsTypes|Id|167|Name">加拿大</span></a>
                             </li>
                         </ul>

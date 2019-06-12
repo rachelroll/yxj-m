@@ -326,7 +326,7 @@
             </div>
         </div>
         <div class='xn_c_index_303_main' style="margin-top: 20px">
-            <video muted style="margin: 0 auto" class="video-js" controls preload="auto" width="640px" height="440px"
+            <video muted style="margin: 0 auto" class="video-js" controls preload="auto" width="380px" height="220px"
                    data-setup='{ "autoplay": true, "preload": "true", "loop":true }'>
                 <source src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" type="video/mp4">
             </video>

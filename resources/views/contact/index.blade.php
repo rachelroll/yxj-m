@@ -7,7 +7,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__contact" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosaADq8EAAAh6ZNS9sU236.css?d=08202510668" />
 
-    <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
+    {{--<script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>--}}
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
@@ -19,7 +19,7 @@
     <div id="ea_ba">
         <div class="about_banner" id="about_banner"     >
             <div class="about_banner_m">
-                <img  data-original="/img/ContactUs.jpg" alt="" />
+                <img  data-original="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/ContactUs.jpg" alt="" />
             </div>
         </div>
     </div>

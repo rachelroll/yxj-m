@@ -31,7 +31,7 @@ class NewsController extends Controller
     {
         $news = News::where('category', $category_id)
             ->where('enabled', 1)
-            ->paginate(5);
+            ->simplePaginate(5);
         if ($news) {
             foreach ($news as &$item) {
                 $item->month = Carbon::createFromDate($item->time)->month;

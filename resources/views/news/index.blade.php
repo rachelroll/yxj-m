@@ -6,7 +6,7 @@
     </title><meta name="keywords" content="光合活动,光合北京文化创意股份有限公司"/><meta name="description" content="光合活动,光合北京文化创意股份有限公司"/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsSt_ggdt.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
     <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
@@ -45,7 +45,7 @@ __VIEWSTATE" value="" />
             {{--</span>--}}
         {{--</div>--}}
         <div id="xn_mc_about_1_wrap" class="xn_mc_about_1_wrap">
-            <ul class="xn_mc_about_1_ul">
+            <ul class="xn_mc_about_1_ul" style="margin-bottom: 0">
                 <li class="xn_mc_about_1_li" @if(request()->fullUrl() != route('news-list', ['category_id' => 1])) style="background-color: white;"  @endif>
                     <a href="{{ route('news-list', ['category_id' => 1]) }}" @if(request()->fullUrl() != route('news-list', ['category_id' => 1])) style="color: rgb(127, 127, 127);"  @endif>
                         机构动态
@@ -57,7 +57,7 @@ __VIEWSTATE" value="" />
                     </a>
                 </li>
             </ul>
-            <ul class="xn_mc_about_1_ul">
+            <ul class="xn_mc_about_1_ul" style="margin-bottom: 0">
                 <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('news-list', ['category_id' => 3])) xn_mc_about_1_curr @endif">
                     <a href="{{ route('news-list', ['category_id' => 3]) }}">
                         乡建观察
@@ -73,7 +73,7 @@ __VIEWSTATE" value="" />
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
                 <div id="xn_mc_news_1_wrap" class="xn_mc_news_1_wrap">
-                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul">
+                    <ul id="xn_mc_news_1_ul" class="xn_mc_news_1_ul infinite-scroll">
                         @if($news)
                             @foreach($news as $item)
                                 <li class="xn_mc_news_1_li">
@@ -87,17 +87,22 @@ __VIEWSTATE" value="" />
                                                 {{ $item->title }}
                                             </div>
                                             <div class="xn_mc_news_1_intro" >
-                                                <span id='xn_mc_news_1_data_ctl05_xn_mc_news_1_introText'>{{ $item->content }}</span>
+                                                <span id='xn_mc_news_1_data_ctl05_xn_mc_news_1_introText'>{{ $item->description }}</span>
                                             </div>
                                         </div>
                                     </a>
                                 </li>
                             @endforeach
                         @endif
+
+                        {{--点击加载下一页的按钮--}}
+                        <div class="text-center">
+                            {{-- 这里调用 paginator 对象的 nextPageUrl() 方法, 以获得下一页的路由 --}}
+                            <a class="jscroll-next btn btn-sm btn-outline-secondary btn-block" style="font-size: 10px;" href="{{ $news->nextPageUrl() }}">
+                                MORE
+                            </a>
+                        </div>
                     </ul>
-                    <div class="xn_mc_news_1_more">
-                        <input name="xn_mc_news_1_moreBtn" type="button" id="xn_mc_news_1_moreBtn" PageIndex="1" PageName="pageindex" value="MORE" FilterId="xn_mc_nnews_1_ul" class="xn_mc_news_1_moreBtn" onclick="ShoveWebControlGetMoreData(this)" Url="/m/news_list.aspx?TypeId=5" PageRows="6" PageSize="6" FillId="xn_mc_news_1_ul" TotallRows="35" />
-                    </div>
                 </div>
             </div>
         </div>
@@ -113,6 +118,30 @@ __VIEWSTATE" value="" />
     <input type="hidden" id="pageId" value="113" />
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/F6/A5/CgAGfFvqs6-ANxI3AAARh4Rdkjc6945.js?d=08202509903" id="js__news"></script>
 
-    <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script></form>
+    <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script>
+
+    <script src="https://cdn.bootcss.com/jscroll/2.4.1/jquery.jscroll.min.js"></script>
+
+    <script>
+        $(function() {
+            var options = {
+                // 当滚动到底部时,自动加载下一页
+                autoTrigger: true,
+                // 限制自动加载, 仅限前两页, 后面就要用户点击才加载
+                autoTriggerUntil: 1,
+                // 设置加载下一页缓冲时的图片
+                loadingHtml: '<img class="align-self-center" src="/img/loading.jpg" alt="Loading..." style="width: 80px"/>',
+                //设置距离底部多远时开始加载下一页
+                padding: 0,
+                nextSelector: 'a.jscroll-next:last',
+                // 下一个自动加载的位置
+                contentSelector: 'ul.infinite-scroll'
+            };
+
+            $('.infinite-scroll').jscroll(options);
+        });
+    </script>
+
+</form>
 </body>
 </html>
