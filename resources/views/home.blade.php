@@ -327,6 +327,7 @@
         </div>
         <div class='xn_c_index_303_main' style="margin-top: 20px; z-index:-1">
             <video
+                autoplay
                 playsinline
                 webkit-playsinline
                 muted
@@ -334,7 +335,7 @@
                 class="video-js vjs-big-play-centered vjs-fluid"
                 controls
                 preload="auto"
-                data-setup='{ "autoplay": false, "preload": "true", "loop":true }'
+                data-setup='{ "autoplay": true, "preload": "true", "loop":true }'
                 id="video"
                 poster="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/WechatIMG8.png"
             >
