@@ -337,7 +337,7 @@
                 preload="auto"
                 data-setup='{ "autoplay": true, "preload": "true", "loop":true }'
                 id="video"
-                poster="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/WechatIMG8.png"
+                {{--poster="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/WechatIMG8.png"--}}
             >
                 <source src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" type="video/mp4">
             </video>
