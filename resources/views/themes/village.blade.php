@@ -72,23 +72,23 @@ __VIEWSTATE" value="" />
         </div>
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
-                <p style="font-size: 18px; color: #535353;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 18px; color: #535353;">
                         <strong>1.树立规划的全局统筹观念</strong>
                     </span>
                 </p>
-                <p style="font-size: 18px; color: #535353;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         在开展乡村规划和建设时，以艺术特色、生态宜居、服务均等、城乡和谐为基本要求，做好传统文化保护传承，着力体现区域民俗文化及传统物质空间形态。
                     </span>
                 </p>
-                <p style="font-size: 18px; color: #535353;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         乡村风貌规划及建设实施是一个系统工程，既涉及到宏观层面的乡村规划，中观、微观的空间规划设计，也涉及到乡村地区传统文化的普查、挖掘、再现与活化，还涉及到与实施息息相关的经济社会持续发展和制度设计。编制《建设艺术乡村行动纲要》，制定“人文、景观、产业、设施”四个类型艺术示范乡村的建设内容及考核标准，设立十项指标，全力推进“艺术特色乡村振兴示范”。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="font-size: 18px; color: #535353;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 18px; color: #535353;">
                         <strong>2.形成“乡村风貌档案”</strong>
                     </span>

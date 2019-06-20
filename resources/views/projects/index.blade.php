@@ -14,7 +14,8 @@
 
     <style>
         ul li {
-            color: rgb(127, 127, 127); font-size: 12px;
+            color: rgb(127, 127, 127);
+            font-size: 12px;
             line-height: 2em;
         }
 
@@ -78,8 +79,6 @@ __VIEWSTATE" value="" />
                         品牌规划
                     </a>
                 </li>
-            </ul>
-            <ul class="xn_mc_about_1_ul">
                 <li class="xn_mc_about_1_li  @if(request()->fullUrl() == route('projects.index', ['category_id' => 6])) xn_mc_about_1_curr @endif">
                     <a href="{{ route('projects.index', ['category_id' => 6]) }}">
                         产业振兴

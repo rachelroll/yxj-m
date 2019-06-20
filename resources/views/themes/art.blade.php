@@ -77,42 +77,42 @@ __VIEWSTATE" value="" />
                         <strong>1.积极推进乡村公共艺术事业</strong>
                     </span>
                 </p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         在全国率先实现城乡公共艺术设施全覆盖、公共艺术产品供给一体化、公共艺术管理运营体系化。在公共文化体育设施和主要公共文化服务实现全覆盖的基础上，开展艺术设施全覆盖，确保城乡居民享有平等的公共艺术服务权益。积极探索和完善城乡艺术一体化建设模式，努力探索艺术管理新体制机制，充分利用各种文化载体，为城乡居民免费提供公共艺术服务。积极争取中央财政转移支付资金，以县财政投入为主，乡镇、村（社区）投入为辅，建立起县、乡、村全面覆盖、传输快捷、服务优良的公共艺术服务网络。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 18px; color: #535353;">
                         <strong>2.实施村民艺术素质提高工程</strong>
                     </span>
                 </p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         大力培育以社会主义核心价值体系为灵魂、以乡村优秀历史文化为底蕴、以艺术创意创新为特征的新时期乡村 人文精神，把核心价值体系贯穿于国民艺术教育全过程。扶持城乡群众业余艺术团队发展，设计下乡、艺术活动每年不少于60场；积极探索农村艺术集市、新型农村艺术学校建设；引进和自办大型艺术节会活动，重点扶持传统节会和会展文化；大力开展群众性艺术活动，不断增强市民艺术和审美意识。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 18px; color: #535353;">
                         <strong>3.实施艺术标志性建设工程</strong>
                     </span>
                 </p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         实施重大项目带动战略，通过建设重大艺术工程，培育区域文化，塑造区域形象。重点为“一环八线”引进文化创意、演艺娱乐、动漫游戏、信息技术、新兴媒体、文化会展、艺术培训等项目，促进产业的融合、升级与互动,建设文艺创作村（基地）；依托中国人民大学艺术学院资源优势，建设艺术基地，争取引进1个以上省级艺术项目落户乡村。
                     </span>
                 </p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         设立繁荣艺术创作专项资金，建立艺术精品及创作骨干奖励制度。倡导艺术创作本土化，扶持艺术工作者“写乡村、唱乡村、画乡村、塑乡村、影乡村、舞乡村”，推出一批引领先进文化方向、反映时代精神、具有较高水准的精品力作。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;"><span style="font-size: 18px; color: #535353;"><strong>4.建设国际艺术交流平台</strong></span>
+                <p style="line-height: 28px;"><span style="font-size: 18px; color: #535353;"><strong>4.建设国际艺术交流平台</strong></span>
                 </p>
-                <p style="line-height: 2em;">
+                <p style="line-height: 28px;">
                     <span style="font-size: 17px; color: #535353;">
                         依托沿海窗口优势，将 乡村建设成世界各国当代艺术与传统文化联系的窗口，引进国际艺术交流项目，实现对世界艺术的快速吸收。从艺术教育和工匠文化交流入手，实现经济、社会、文化等多层次全面交流，保持乡村艺术文化的先进性。积极营销乡村，活跃民间交往，增强国际传播力，全面提升乡村的聚集辐射力、国际影响力和综合竞争力。
                     </span>
