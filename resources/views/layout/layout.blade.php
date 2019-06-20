@@ -32,11 +32,11 @@
             overflow:hidden;
         }
 
-        .nav_menu1 a {
-            font-size: 24px;
-            /*font-family: 黑体;*/
-            color: #535353;
-        }
+        /*.nav_menu1 a {*/
+            /*font-size: 24px;*/
+            /*!*font-family: 黑体;*!*/
+            /*color: #535353;*/
+        /*}*/
 
     </style>
 </head>

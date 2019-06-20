@@ -15,7 +15,7 @@
             <div class='nav_main'>
                 <ul id="ShoveWebControl_VMenu1" class="type1Ul type1Ul_n000">
                     <li id="type1Li_n0" level=0 index=0 class="nav_menu1">
-                        <a href="{{ route('home') }}" target="_self" style="color: #535353;font-size:24px">首页</a>
+                        <a href="{{ route('home') }}" target="_self">首页</a>
                     </li>
                     <li id="type1Li_n3" level=0 data_id="3" type="n" index=1 class="nav_menu1">
                         <a href="{{ route('aboutUs') }}" rel="nofollow" target="_self">

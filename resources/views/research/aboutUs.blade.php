@@ -4,21 +4,14 @@
     <title>
         关于我们
     </title>
-    <meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__about" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs8u2AY9cNAAAh83P02CI602.css?d=08202509730" />
+    <meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link id="css__about" rel="stylesheet" type="text/css" href="/css/rewrite.css" />
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
-    <style>
-        .xn_mc_about_1_li{float: left;line-height: 1rem;width: 20%;}
 
-        span
-        {
-            text-indent: 38px;
-        }
-
-    </style>
 </head>
 <body class="about_body">
 {{--<form name="form1" method="get" action="#" id="form1" NavigateId="1" Page="/m/about.aspx?FId=n1:1:1">--}}
@@ -41,10 +34,10 @@
                 <span id='ShoveWebControl_Text2'>About Us</span>
             </span>
         </div>
-        <div id="" class="xn_mc_about_1_wrap" >
+        <div id="xn_mc_about_1_wrap" class="xn_mc_about_1_wrap" >
             <ul class="xn_mc_about_1_ul">
-                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('aboutUs')) xn_mc_about_1_curr @endif" style="width: 20%;" >
-                    <a href="{{ route('aboutUs') }}">
+                <li class="xn_mc_about_1_li" style="width: 20%; @if(request()->fullUrl() != route('aboutUs')) background-color: white; @endif" >
+                    <a href="{{ route('aboutUs') }}" @if(request()->fullUrl() != route('aboutUs')) style="color: rgb(127, 127, 127);" @endif>
                         关于我们
                     </a>
                 </li>
@@ -58,14 +51,16 @@
                         研究内容
                     </a>
                 </li>
+            </ul>
+            <ul class="xn_mc_about_1_ul">
                 <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchActivity')) xn_mc_about_1_curr @endif">
                     <a href="{{ route('researchActivity') }}">
                         社会活动
                     </a>
                 </li>
-                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchYearbook')) xn_mc_about_1_curr @endif">
+                <li class="xn_mc_about_1_li @if(request()->fullUrl() == route('researchYearbook')) xn_mc_about_1_curr @endif" style="width: 40%">
                     <a href="{{ route('researchYearbook') }}">
-                        年  鉴
+                        艺乡建年鉴
                     </a>
                 </li>
             </ul>
