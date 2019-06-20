@@ -2,7 +2,7 @@
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
 <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" />
     <title>
-        光合活动 - 城市品牌 - 光合北京文化创意股份有限公司
+        艺乡建
     </title><meta name="keywords" content="光合活动,光合北京文化创意股份有限公司"/><meta name="description" content="光合活动,光合北京文化创意股份有限公司"/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsSt_ggdt.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
     <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
@@ -73,62 +73,62 @@ __VIEWSTATE" value="" />
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
                 <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);">
+                    <span style="font-size: 18px; color: #535353;">
                         <strong>1.大力发展艺术创意产业集群</strong>
                     </span>
                 </p>
                 <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                    <span  style="font-size: 17px; color: #535353;">
                         利用艺术创意渗透性强、关联性强等优势，与乡村一二三产业融合发展，提升乡村产业附加值。一是大力振兴传统工艺。依托乡村丰富传统工艺资源，广泛开展文化创意，面向农村开展技艺培训，开办就业工坊，通过电商平台、会展展销、技能大赛等方式开展营销，增加农民收入。二是大力发展乡村文化旅游。鼓励乡村文化资源合理利用，依托风景名胜、历史文化名镇名村、特色景观、传统村落等，打造旅游新模式。三是规范乡村艺术市场秩序。进一步加强农村艺术市场监管，严厉打击违法违规行为，积极培育各类优质文化市场主体，为乡村文化产业发展创造良好环境。
                     </span>
                 </p>
                 <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                    <span  style="font-size: 17px; color: #535353;">
                         结合县域文化创意产业发展实际，拓宽产业链，走集约化发展之路，重点支持工匠 技艺、创意设计、工艺美术、数字出版、动漫影视等新兴艺术业态，成功运用到农村文化产业发展中，着力提高创意设计业对二、三产业的关联度、渗透度和融合度，通过连锁化双创平台形成具有乡村特色的文化创意产品生产、经营、服务、运作模式。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 18px; color: #535353;">
                         <strong>2.推动乡村品牌化建设</strong>
                     </span>
                 </p>
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(127, 127, 127); font-size: 12px;">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 17px; color: #535353;">
                         充分利用乡村的区位、交通、人文和经济优势，注重品牌建设，精心打造乡村文化名片。鼓励开展文化产业“一镇一品”探索实践，打造特色艺术产业品牌。一是以人文自然景观为重点 打造文化旅游品牌；二是以历史文化名人为重点，打造历史文化品牌；三是以现代农庄为重点，打造现代农业观光品牌；四是以工匠技艺为重点，打造工艺美术品牌；五是以乡旅小镇为重点，打造快乐文化品牌。通过实施文化品牌建设工程，塑造乡村艺术特色形象，彰显乡村文化魅力，显现品牌文化效益。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 18px; color: #535353;">
                         <strong>3.建设乡村艺术教育平台</strong>
                     </span>
                 </p>
-                <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                <p style="line-height: 28px;">
+                    <span  style="font-size: 17px; color: #535353;">
                         艺术教育是素质教育不可或缺的重要内容，对青少年提高审美修养、丰富精神世界、培养创新意识，促进全面发展具有其他教育学科所不可替代的作用。建设乡村艺术教育平台发挥互联网技术及媒介优势，建设“互联网+艺术教育”的全科艺术教育乡村试验校，通过线上教育平台，连接中国顶尖艺术院校、艺术机构、艺术家等优质资源，助力乡村儿童的艺术教育，使农村学生也能享受到艺术课的魅力。
                     </span>
                 </p>
-                <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                <p style="line-height: 28px;">
+                    <span  style="font-size: 17px; color: #535353;">
                         乡村艺术教育平台包括基础设施、组建艺术扶贫志愿者队伍、立足乡土资源打造艺术教育基地三方面工作。基础设施建设指建立标准的音乐室、美术室、体育室，为开展美育工作奠定坚实的基础；组建艺术扶贫志愿者队伍，指发动艺术专业教师定时、定点、定量深入薄弱学校免费为学生开展艺术教育活动；各地区需要立足乡土资源，打造艺术教育基地，指开发具有地区、民族和学校特色的艺术课程资源，特别是农村艺术课程资源，发挥本土文化的强大育人功能。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);"><strong>4.社群组织与内置金融平台</strong></span>
+                <p style="line-height: 28px;">
+                    <span style="font-size: 18px; color: #535353;"><strong>4.社群组织与内置金融平台</strong></span>
                 </p>
-                <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                <p style="line-height: 28px;">
+                    <span  style="font-size: 17px; color: #535353;">
                         发现更多农村村社组织以及金融平台，为村社内置合作金融组织创建和运营提供咨询服务，发展包括资金互助及存储借贷、抵押贷款、股权化、土地银行及信托、流转交易 、农业保险、村社内部结算和余额增值功能等金融功能和作用，通过合作社组织农民，培养内生动力，建立村社内部资金互助（信用合作）、消费合作、生产合作、盘活闲置资产、对接外部合作的机制，重建村社共同体，壮大集体经济。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);"><strong>4.艺术人才队伍建设工程</strong></span>
+                <p style="line-height: 28px;">
+                    <span style="font-size: 18px; color: #535353;"><strong>5.艺术人才队伍建设工程</strong></span>
                 </p>
-                <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 17px; color: #535353;">
                         全面整合艺术资源，建立艺术项目制度，有效推动大艺术、大产业的发展。在全县范围内择优选调优秀艺术人才，充实艺术工作队伍；制定优惠政策，大力引进人才，育人、引人、用人和留人的机制基本形成。
                     </span>
                 </p>

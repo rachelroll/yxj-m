@@ -9,6 +9,13 @@
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
+    <style>
+        .xn_mc_casev_5_contone span {
+            font-size: 17px;
+            color: #535353;
+            line-height: 28px;
+        }
+    </style>
 </head>
 <body class="news_view_body">
 <form name="form1" method="get" action="#" id="form1" NavigateId="2" Page="/m/news_view.aspx?Fid=t2:4:2&amp;Id=386&amp;TypeId=4">
@@ -41,7 +48,7 @@ __VIEWSTATE" value="" />
         <div id="xn_mc_casev_5_wrap" class="xn_mc_casev_5_wrap"     >
             <div class="xn_mc_casev_5_inner">
                 <div class="xn_mc_casev_5_name">
-                    <a target="_blank" href="{{ route('news-list', ['category_id' => $news->category]) }}"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
+                    <a target="_blank" href="{{ route('news-list', ['category_id' => $news->category]) }}" style="font-size: 14px;"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
                 </div>
             </div>
 

@@ -2,7 +2,7 @@
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
 <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" />
     <title>
-        光合活动 - 城市品牌 - 光合北京文化创意股份有限公司
+        艺乡建
     </title><meta name="keywords" content="光合活动,光合北京文化创意股份有限公司"/><meta name="description" content="光合活动,光合北京文化创意股份有限公司"/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsSt_ggdt.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
     <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
@@ -13,9 +13,14 @@
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
     <style>
-        ul li {
-            color: rgb(127, 127, 127); font-size: 12px;
-            line-height: 2em;
+        /*ul li {*/
+            /*color: rgb(127, 127, 127); font-size: 12px;*/
+            /*line-height: 2em;*/
+        /*}*/
+
+        .xn_c_products_2_text ul li {
+            font-size: 16px;
+            color: #535353;
         }
     </style>
 </head>
@@ -72,19 +77,19 @@ __VIEWSTATE" value="" />
         </div>
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);">
+                <p style="font-size: 18px; color: #535353;">
+                    <span style="font-size: 17px; color: #535353;">
                         <strong>公益伙伴</strong>
                     </span>
                 </p>
-                <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 17px; color: #535353;">
                         携手多家对艺术乡村建设/文创开发/文化振兴方向保持兴趣和关注度的媒体，长期在艺乡建平台上寻找和挖掘亮点，协助乡建工作者们触及和影响到更加广泛的社会公众。媒体合作通道长期开放。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 2em;">
-                    <span style="color: rgb(63, 63, 63);">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 17px; color: #535353;">
                         <strong>媒体伙伴</strong>
                     </span>
                 </p>

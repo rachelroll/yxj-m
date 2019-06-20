@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" />
     <title>
-        光合活动 - 城市品牌 - 光合北京文化创意股份有限公司
+        艺乡建
     </title>
     <meta name="applicable-device" content="mobile">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />

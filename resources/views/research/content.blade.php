@@ -17,6 +17,10 @@
             font-size: 10px;
             color: rgb(127, 127, 127);
         }
+
+        .xn_mc_about_2_wrap {
+            line-height: 0.6rem;
+        }
     </style>
 </head>
 <body class="about_body">
@@ -76,50 +80,50 @@
                         <br/>
                     </p>
                     <p style="line-height: 2em;">
-                        <span style="color: rgb(89, 89, 89); font-size: 14px;">
+                        <span style="font-size: 17px; color: #535353;">
                             <strong>研究内容</strong>
                         </span>
                     </p>
                     <p style="line-height: 2em;">
-                        <span style="color: rgb(89, 89, 89); font-size: 14px;">
+                        <span style="font-size: 17px; color: #535353;">
                             <strong><br/></strong>
                         </span>
                     </p>
-                    <p style="line-height: 2em;">
-                        <span style="color: rgb(127, 127, 127); font-size: 10px;">
+                    <p style="line-height: 28px;">
+                        <span style="font-size: 17px; color: #535353;">
                             艺乡建的作用，在于总结艺术振兴乡村的路径与方法，发挥艺术自身所具有的激活性、生长性和在地性优势，以艺术手段促进乡村生态均衡可持续发展，通过艺术设计，既能够服务于当下的乡村建设，又能够弥补文化的裂痕，“传承文脉、留住乡愁”。
                         </span>
                     </p>
                     <br>
-                    <p style="line-height: 2em;">
-                        <span style="color: rgb(89, 89, 89); font-size: 14px;">
+                    <p style="line-height: 28px;">
+                        <span style="font-size: 17px; color: #535353;">
                             <strong>论文</strong>
                         </span>
                     </p>
                     <br>
-                    <div class="list">
+                    <div class="list" style="font-size: 17px; color: #535353;">
                        l 人工智能，让艺术变得廉价?
-                        <span style="font-size: 12px;"> 陈炯 2017.10 美术观察</span>
+                        <span style="font-size: 17px; color: #535353;"> 陈炯 2017.10 美术观察</span>
                         <br/><br/>
                         l 化古开今录梦华—我对材质、结构和时间意义的一点感悟
-                        <span style="font-size: 12px;">陈炯 2017.03美术观察</span>
+                        <span style="font-size: 17px; color: #535353;">陈炯 2017.03美术观察</span>
                         <br/><br/>
                         l 记忆影射下的公共艺术
-                        <span style="font-size: 12px;"> 陈炯 2016.04 美术观察</span>
+                        <span style="font-size: 17px; color: #535353;"> 陈炯 2016.04 美术观察</span>
                         <br/><br/>
                         l 自由主义视域中的设计伦理构建
-                        <span style="font-size: 12px;">丛志强 2016.02 美术观察</span><br/><br/>l 本位脱离：消费逻辑主导下中国设计师的危机研究 <span
-                                style="font-size: 12px;">丛志强 2017.11 美术观察<br/></span><br/>l 消费主义语境下中国设计生态失衡研究—基于资本逻辑与符号逻辑的视角 <span
-                                style="font-size: 12px;">丛志强 2017.05 文艺争鸣</span><br/><br/>l 京津冀县域人口城镇化时空格局及驱动力研究—兼论产业疏解可否调控北京人口 <span
-                                style="font-size: 12px;">张耀军 2017.12 经济理论与经济管理<br/></span><br/>l 《海洋之歌》传统与现代碰撞下的民族艺术发展 <span
-                                style="font-size: 12px;">赵前2016.11当代电影<br/></span><br/>l 街旁绿地内部行为空间组织—以邻北京市三环辅路的街旁绿地为例<span
-                                style="font-size: 12px;"> 李宇宏2017.01华中建筑</span><br/><br/>l 皇城根遗址公园空间环境行为组织探析<span
-                                style="font-size: 12px;"> 李宇宏 2017.03 南方建筑</span><br/><br/>l 《儒之理学与心学和中国绘画的内在关联》<span
-                                style="font-size: 12px;">王文娟 2015.5 美术研究</span><br/><br/>l 《徐悲鸿的写实主义及其再理解》 <span
-                                style="font-size: 12px;">王文娟 2018.08 美术观察</span><br/><br/>l 面向知识生产的邻避设施规划公众参与<span
-                                style="font-size: 12px;"> 郑国 2017.4.24 城市规划</span><br/><br/>l 14 Same projects，different endings—Comparative case studies on NIMBY facility construction in Beijing <span
-                                style="font-size: 12px;">郑国2018.3.28 CITIES</span><br/><br/>l 利益平衡与知识整合：城市规划公众参与的逻辑与模式<span
-                                style="font-size: 12px;">郑国 2016.1.14 中国行政管理</span>
+                        <span style="font-size: 17px; color: #535353;">丛志强 2016.02 美术观察</span><br/><br/>l 本位脱离：消费逻辑主导下中国设计师的危机研究 <span
+                                style="font-size: 17px; color: #535353;">丛志强 2017.11 美术观察<br/></span><br/>l 消费主义语境下中国设计生态失衡研究—基于资本逻辑与符号逻辑的视角 <span
+                                style="font-size: 17px; color: #535353;">丛志强 2017.05 文艺争鸣</span><br/><br/>l 京津冀县域人口城镇化时空格局及驱动力研究—兼论产业疏解可否调控北京人口 <span
+                                style="font-size: 17px; color: #535353;">张耀军 2017.12 经济理论与经济管理<br/></span><br/>l 《海洋之歌》传统与现代碰撞下的民族艺术发展 <span
+                                style="font-size: 17px; color: #535353;">赵前2016.11当代电影<br/></span><br/>l 街旁绿地内部行为空间组织—以邻北京市三环辅路的街旁绿地为例<span
+                                style="font-size: 17px; color: #535353;"> 李宇宏2017.01华中建筑</span><br/><br/>l 皇城根遗址公园空间环境行为组织探析<span
+                                style="font-size: 17px; color: #535353;"> 李宇宏 2017.03 南方建筑</span><br/><br/>l 《儒之理学与心学和中国绘画的内在关联》<span
+                                style="font-size: 17px; color: #535353;">王文娟 2015.5 美术研究</span><br/><br/>l 《徐悲鸿的写实主义及其再理解》 <span
+                                style="font-size: 17px; color: #535353;">王文娟 2018.08 美术观察</span><br/><br/>l 面向知识生产的邻避设施规划公众参与<span
+                                style="font-size: 17px; color: #535353;"> 郑国 2017.4.24 城市规划</span><br/><br/>l 14 Same projects，different endings—Comparative case studies on NIMBY facility construction in Beijing <span
+                                style="font-size: 17px; color: #535353;">郑国2018.3.28 CITIES</span><br/><br/>l 利益平衡与知识整合：城市规划公众参与的逻辑与模式<span
+                                style="font-size: 17px; color: #535353;">郑国 2016.1.14 中国行政管理</span>
                     </div>
                 </span>
             </div>

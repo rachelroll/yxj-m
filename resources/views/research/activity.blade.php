@@ -14,9 +14,9 @@
         .xn_mc_about_1_li{float: left;line-height: 1rem;width: 20%;}
 
         .list {
-            font-size: 10px;
-            color: rgb(127, 127, 127);
-            line-height: 2em;
+            font-size: 17px;
+            color: #535353;
+            line-height: 28px;
         }
         .list ul li {
             margin-bottom: 10px;
@@ -76,21 +76,13 @@
     <div id="xn_mc_about_2_wrap" class="xn_mc_about_2_wrap">
         <div class="xn_mc_about_2_cont">
                 <span id='xn_mc_about_2_Text'>
-                    <p>
-                        <br/>
-                    </p>
-                    <p style="line-height: 2em;">
-                        <span style="color: rgb(89, 89, 89); font-size: 14px;">
-                            <strong>社会活动</strong>
-                        </span>
-                    </p>
-                    <p style="line-height: 2em;">
+                    <p style="font-size: 18px; color: #535353;">
                         <span style="color: rgb(89, 89, 89); font-size: 14px;">
                             <strong><br/></strong>
                         </span>
                     </p>
-                    <p style="line-height: 2em;">
-                        <span style="color: rgb(127, 127, 127); font-size: 10px;">
+                    <p style="line-height: 28px;">
+                        <span style="font-size: 17px; color: #535353;">
                             艺乡建的工作不是创作某一个具体的艺术作品或设计，而是组织艺术家群落作用于乡村村落发展，以及研究艺术品创化后如何转化为价值，以及艺术产业如何在地化、产业化，促进乡村生态融合，形成乡村村落的内生性成长，可持续地增加乡村收入。艺乡建推行的乡振计划，主旨在于发现乡村之美、亲近乡村之情、创意乡村未来，在组织乡村、建设乡村、经营乡村过程中推动乡建项目落地。
                         </span>
                     </p>

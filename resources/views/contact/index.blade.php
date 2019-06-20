@@ -59,19 +59,16 @@
                             <br/>
                         </span>
                     </p>
-                    <p style="text-align: left; color: rgb(0, 0, 0); line-height: 1.5em; text-indent: 0px; font-size: 16px; white-space: normal;">
-                        <span style="color: rgb(0, 0, 0); text-indent: 0px; font-size: 12px;">
+                    <p style="line-height: 28px">
+                        <span style="font-size: 15px; color: #535353;">
                             地址：中国·北京·朝阳区东四环中路大成国际中心写字楼B2-0526
                         </span>
                     </p>
-                    {{--<p style="text-align: left; color: rgb(0, 0, 0); line-height: 1.5em; text-indent: 0px; font-size: 16px; white-space: normal;">--}}
-                        {{--<span style="color: rgb(0, 0, 0); text-indent: 0px; font-size: 12px;">邮编：102488</span>--}}
-                    {{--</p>--}}
-                    <p style="text-align: left; color: rgb(0, 0, 0); line-height: 1.5em; text-indent: 0px; white-space: normal;">
-                        <span style="font-size: 12px;">手机: 18301573107</span>
+                    <p style="line-height: 28px">
+                        <span style="font-size: 15px; color: #535353;">手机: 18301573107</span>
                     </p>
-                    <p style="text-align: left; color: rgb(0, 0, 0); line-height: 1.5em; text-indent: 0px; font-size: 16px; white-space: normal;">
-                        <span style="color: rgb(0, 0, 0); text-indent: 0px; font-size: 12px;">电话：010-59626463</span>
+                    <p style="line-height: 28px">
+                        <span style="font-size: 15px; color: #535353;">电话：010-59626463</span>
                     </p>
                     <p style="color: rgb(0, 0, 0); text-indent: 0px; font-size: 16px; white-space: normal;">
                         <br style="color: rgb(0, 0, 0); text-indent: 0px; font-size: 16px; white-space: normal;"/>

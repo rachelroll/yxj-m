@@ -40,7 +40,7 @@ __VIEWSTATE" value="" />
         <div id="xn_mc_casev_5_wrap" class="xn_mc_casev_5_wrap"     >
             <div class="xn_mc_casev_5_inner">
                 <div class="xn_mc_casev_5_name">
-                    <a target="_blank" href="{{ route('projects.index', ['category_id' => $project->category]) }}"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
+                    <a target="_blank" href="{{ route('projects.index', ['category_id' => $project->category]) }}" style="font-size: 14px;"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
                 </div>
             </div>
 

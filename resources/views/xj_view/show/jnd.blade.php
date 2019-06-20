@@ -18,7 +18,7 @@
         <div id="xn_mc_casev_5_wrap" class="xn_mc_casev_5_wrap">
             <div class="xn_mc_casev_5_inner">
                 <div class="xn_mc_casev_5_name">
-                    <a target="_blank" href="{{ route('view-overseas-office') }}"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
+                    <a target="_blank" href="{{ route('view-overseas-office') }}" style="font-size: 14px;"> <&nbsp;&nbsp;&nbsp; 返回列表</a>
                 </div>
             </div>
             <div class="xn_mc_casev_5_contone">

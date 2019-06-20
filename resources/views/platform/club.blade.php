@@ -2,7 +2,7 @@
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
 <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" />
     <title>
-        光合活动 - 城市品牌 - 光合北京文化创意股份有限公司
+        艺乡建
     </title><meta name="keywords" content="光合活动,光合北京文化创意股份有限公司"/><meta name="description" content="光合活动,光合北京文化创意股份有限公司"/><meta name="pc-agent" content="url=http://cn.ps-cc.com/NewsSt_ggdt.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F6/F6/CgAGfFvrosiABY8LAAAl_-7bYgY686.css?d=08202509903" />
     <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85KAOuejAAAtVfnVNlc395.css?d=08202509793" />
@@ -13,9 +13,15 @@
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/flexible.js"></script>
 
     <style>
-        ul li {
-            color: rgb(127, 127, 127); font-size: 12px;
-            line-height: 2em;
+        /*ul li {*/
+            /*color: rgb(127, 127, 127); font-size: 12px;*/
+            /*line-height: 2em;*/
+        /*}*/
+
+        .xn_c_products_2_text ul li {
+            font-size: 17px;
+            color: #535353;
+            line-height: 28px;
         }
     </style>
 </head>
@@ -72,11 +78,6 @@ __VIEWSTATE" value="" />
         </div>
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
-                {{--<p style="line-height: 2em;">--}}
-                    {{--<span style="color: rgb(63, 63, 63);">--}}
-                        {{--<strong>俱乐部</strong>--}}
-                    {{--</span>--}}
-                {{--</p>--}}
                 <ul>
                     <li>乡村振兴工作者</li>
                     <li>乡村文化发展者</li>
@@ -91,8 +92,8 @@ __VIEWSTATE" value="" />
                     <li>普通群众感受者</li>
                 </ul>
                 <br>
-                <p style="line-height: 2em;">
-                    <span style="font-size: 12px; color: rgb(127, 127, 127);">
+                <p style="line-height: 28px;">
+                    <span style="font-size: 17px; color: #535353;">
                         艺乡建俱乐部支持机构、个人以及各个类型的团队参与其中，感受生活，体验乡建视野，感受乡建魅力。艺乡建将会通过专业的支持性服务，帮助乡建乡村组织或者个人实现自身的可持续发展，比如提供项目评估、人力资源、管理咨询、能力建设、行业交流等方面的服务；
 只要你发现不一样的乡村，一心致力于实现美好乡村建设，那么你就是乡村振兴的原动力量无论你是谁，只要你关注艺乡建，并拥有将乡村振兴的梦想以及理念付诸行动的清晰计划，你就是我们所寻找的 “艺乡建”俱乐部成员，我们会帮你完善，帮你实现，帮你圆梦。
                     </span>
