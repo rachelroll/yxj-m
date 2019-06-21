@@ -72,7 +72,7 @@ __VIEWSTATE" value="" />
         </div>
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
-                <p style="line-height: 28px;">
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         为了帮助筛选出富有潜力的创业团队，“艺乡建”邀请诸多在创业或识人方面有着丰富经验的知名企业家，及对艺术乡村振兴或乡村发展领域有深入见解的专家或社会组织创办者，作为“项目决策委员”参与终审；确定最终资助决策与金额；持续跟进与支持感兴趣的艺乡建团队；帮助乡村乡建事业找到最有潜力的乡建工作者、创业者以及引领者，并且为他们提供一些富有价值的建议。
                     </span>

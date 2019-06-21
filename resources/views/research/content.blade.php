@@ -20,6 +20,7 @@
 
         .xn_mc_about_2_wrap {
             line-height: 0.6rem;
+            margin-top: -1px;
         }
     </style>
 </head>
@@ -81,23 +82,23 @@
                     <p>
                         <br/>
                     </p>
-                    <p style="line-height: 2em;">
-                        <span style="font-size: 17px; color: #535353;">
-                            <strong>研究内容</strong>
-                        </span>
-                    </p>
-                    <p style="line-height: 2em;">
-                        <span style="font-size: 17px; color: #535353;">
-                            <strong><br/></strong>
-                        </span>
-                    </p>
-                    <p style="line-height: 28px;">
+                    {{--<p style="line-height: 2em;">--}}
+                        {{--<span style="font-size: 17px; color: #535353;">--}}
+                            {{--<strong>研究内容</strong>--}}
+                        {{--</span>--}}
+                    {{--</p>--}}
+                    {{--<p style="line-height: 2em;">--}}
+                        {{--<span style="font-size: 17px; color: #535353;">--}}
+                            {{--<strong><br/></strong>--}}
+                        {{--</span>--}}
+                    {{--</p>--}}
+                    <p style="line-height: 30px;">
                         <span style="font-size: 17px; color: #535353;">
                             艺乡建的作用，在于总结艺术振兴乡村的路径与方法，发挥艺术自身所具有的激活性、生长性和在地性优势，以艺术手段促进乡村生态均衡可持续发展，通过艺术设计，既能够服务于当下的乡村建设，又能够弥补文化的裂痕，“传承文脉、留住乡愁”。
                         </span>
                     </p>
                     <br>
-                    <p style="line-height: 28px;">
+                    <p style="line-height: 30px;">
                         <span style="font-size: 17px; color: #535353;">
                             <strong>论文</strong>
                         </span>

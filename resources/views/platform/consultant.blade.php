@@ -15,11 +15,11 @@
     <style>
         ul li {
             color: rgb(127, 127, 127); font-size: 12px;
-            line-height: 2em;
+            line-height: 30px;
         }
 
         .xn_c_products_2_text ul li {
-            font-size: 15px;
+            font-size: 17px;
             color: #535353;
         }
     </style>
@@ -82,17 +82,19 @@ __VIEWSTATE" value="" />
                         <strong>合作伙伴</strong>
                     </span>
                 </p>
-                <p style="line-height: 28px;">
+                <br>
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         为了更好地陪伴初创的艺乡建创业团队成长，“艺乡建计划”团队特别邀请了全国各地乡建艺术及相关专家、教授成为我们的“项目资助顾问”。他们将作为“星探”挖掘和推荐本地或者自己熟悉的乡建团队建设；向合适的地区和个人推介“艺乡建计划”； 受邀和项目组一起参与初选；并将持续关注、跟进、支持获得资助的“艺乡建计划”。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="font-size: 18px; color: #535353;">
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         <strong>项目进度</strong>
                     </span>
                 </p>
+                <br>
                 <ul>
                     <li>新时代下的中国文旅探索</li>
                     <li>中国人民大学艺术振兴乡村建设高峰论坛</li>
@@ -104,7 +106,7 @@ __VIEWSTATE" value="" />
                     <li>用心写爱，让爱发声——神农架远山儿童村项目正式启动</li>
                     <li>七大行动！高校服务乡村振兴战略要这么做</li>
                     <li>艺术振兴乡村途径研究与实践</li>
-                    <li>尚逸|婺源云何堂</li>
+                    <li>尚逸 | 婺源云何堂</li>
                 </ul>
                 <p><br/></p>
             </div>

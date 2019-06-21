@@ -30,6 +30,10 @@
             line-height: 26px;
             color: #535353;
         }
+
+        .xn_c_products_2_warp {
+            padding: 20px 0 119px
+        }
     </style>
 </head>
 <body class="news_body">

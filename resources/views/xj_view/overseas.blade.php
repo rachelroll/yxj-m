@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
 <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" /><title>
-        国内事业部 - 城市品牌 - 光合北京文化创意股份有限公司
+        国际事业部
     </title>
     <meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__case" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/EC/88/CgAGe1vs85GAVYCFAAA7l01yW-c196.css?d=08202510058" />
 
@@ -50,9 +50,9 @@ __VIEWSTATE" value="" />
         <div id="xn_mc_case_1_wrap" class="xn_mc_case_1_wrap"     >
             <ul id="xn_mc_case_1_ul" class="xn_mc_case_1_ul">
                 <li class="xn_mc_case_1_li">
-                    <a href="{{ route('view.office.show', ['id' => 'bj']) }}">
+                    <a href="{{ route('view.office.show', ['id' => 'jnd']) }}">
                         <div class="xn_mc_case_1_img">
-                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' alt='北京事业部'  title='北京事业部' />
+                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' />
                         </div>
                         <div class="xn_mc_case_1_cont">
                             <div class="xn_mc_case_1_name">

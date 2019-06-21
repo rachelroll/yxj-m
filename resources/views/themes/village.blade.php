@@ -112,10 +112,9 @@ __VIEWSTATE" value="" />
                 <br>
                 <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
-                        体现乡村空间精神的空间规划
+                        体现乡村空间精神的空间规划:
                     </span>
                 </p>
-                <br>
                 <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         ①有别于城市的乡村规划设计手法：在传承和复兴乡村的过程中，应该抓住符合乡村的空间肌理和空间场景，全面认识乡村空间构成及其审美价值；

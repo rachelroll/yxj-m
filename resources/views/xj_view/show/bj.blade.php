@@ -23,11 +23,11 @@
             </div>
             <div class="xn_mc_casev_5_contone">
                 <span id='xn_mc_casev_1_Text41'>
-                    <p style="font-size: 18px; color: #535353;">
+                    <p style="line-height: 30px">
                         <strong><span style="font-size: 14px; color: rgb(63, 63, 63);">简 介</span></strong>
                     </p>
                     <br>
-                    <p style="line-height: 28px"><span style="font-size: 17px; color: #535353;">北京艺乡建事业部创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span></p><p><br/></p></span>
+                    <p style="line-height: 30px"><span style="font-size: 17px; color: #535353;">北京艺乡建事业部创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span></p><p><br/></p></span>
             </div>
         </div>
     </div>

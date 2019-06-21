@@ -29,8 +29,8 @@
                         </strong>
                     </p>
                     <br>
-                    <p style="line-height: 2em;">
-                        <span style="color: rgb(127, 127, 127); font-size: 12px;">
+                    <p style="line-height: 30px;">
+                        <span style="color: #535353; font-size: 17px;">
                             加拿大艺乡建事业部创立于2010年，总部位于加拿大。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。
                         </span>
                     </p>

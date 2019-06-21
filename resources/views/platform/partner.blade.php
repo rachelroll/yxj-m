@@ -19,7 +19,7 @@
         /*}*/
 
         .xn_c_products_2_text ul li {
-            font-size: 16px;
+            font-size: 17px;
             color: #535353;
         }
     </style>
@@ -77,29 +77,36 @@ __VIEWSTATE" value="" />
         </div>
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
             <div class="xn_c_products_2_text">
-                <p style="font-size: 18px; color: #535353;">
-                    <span style="font-size: 17px; color: #535353;">
-                        <strong>公益伙伴</strong>
-                    </span>
-                </p>
-                <p style="line-height: 28px;">
+                {{--<p style="font-size: 18px; color: #535353;">--}}
+                    {{--<span style="font-size: 17px; color: #535353;">--}}
+                        {{--<strong>公益伙伴</strong>--}}
+                    {{--</span>--}}
+                {{--</p>--}}
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         携手多家对艺术乡村建设/文创开发/文化振兴方向保持兴趣和关注度的媒体，长期在艺乡建平台上寻找和挖掘亮点，协助乡建工作者们触及和影响到更加广泛的社会公众。媒体合作通道长期开放。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 28px;">
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         <strong>媒体伙伴</strong>
                     </span>
                 </p>
+                <br>
                 <ul>
                     <li>人民日报</li>
+                    <br>
                     <li>消费日报</li>
+                    <br>
                     <li>经济日报</li>
+                    <br>
                     <li>新华网</li>
+                    <br>
                     <li>人民网</li>
+                    <br>
                     <li>经济网</li>
+                    <br>
                     <li>农村网</li>
                 </ul>
                 <p><br/></p>

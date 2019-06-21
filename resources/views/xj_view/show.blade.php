@@ -1,8 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
-<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" /><title>
-        山东事业部 - 城市规划 - 光合北京文化创意股份有限公司
-    </title><meta name="keywords" content="山东事业部,光合北京文化创意股份有限公司"/><meta name="description" content="简 介光合星球山东事业部地处运河文化闻名的聊城东昌湖畔，致力于用光合集团的优势资源及城市品牌运营经验服务于聊城及山东省境内的城乡品牌建设，山东事业部专注于挖掘山东传统文化，通过大设计系统方法论、国际资源..."/><meta name="pc-agent" content="url=http://cn.ps-cc.com/CaseStd_483.html" /><meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__case_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F7/BF/CgAGfFvs_c-AXCViAAAzBfpXAME654.css?d=08202510340" />
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="HandheldFriendly" content="true" /><meta http-equiv="x-rim-auto-match" content="none" /><meta name="format-detection" content="telephone=no" />
+    <title>
+        艺乡建
+    </title>
+    <meta name="applicable-device" content="mobile"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__case_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/F7/BF/CgAGfFvs_c-AXCViAAAzBfpXAME654.css?d=08202510340" />
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jquery-2.min.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>

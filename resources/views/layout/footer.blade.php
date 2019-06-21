@@ -28,9 +28,23 @@
         text-align: justify;
     }
 
-    .xn_c_products_2_text {
-        padding: 0.7rem
+    .xn_mc_casev_5_wrap {
+        /*text-align: justify;*/
+        padding: 0 0.7rem;
     }
+
+    .xn_c_products_2_text {
+        padding: 0 0.7rem
+    }
+
+    .xn_mc_about_2_wrap {
+        padding: 0 0.7rem;
+    }
+
+    .xn_mc_casev_5_contone {
+        text-align: justify;
+    }
+
 </style>
 
 <br>

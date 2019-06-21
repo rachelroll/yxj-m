@@ -21,7 +21,7 @@
         .xn_c_products_2_text ul li {
             font-size: 17px;
             color: #535353;
-            line-height: 28px;
+            line-height: 30px;
         }
     </style>
 </head>
