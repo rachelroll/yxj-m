@@ -32,9 +32,9 @@
 <div id='ea_b' moudule='true'>
     <div class='xn_mb_1_wrap' id='xn_mb_1_wrap'>
         <div style="background: url(/img/footer.jpg); height: 280px; width: 100%; position:relative">
-            <div style="position: absolute; bottom: 70px; left: 50%; margin-left:-110px;">
-                <span class='xn_mb_1_copy' style="font-size: 15px; color: #720d0d">Copyright ©2018 - 2021 艺乡建</span>
-                <span class='xn_mb_1_copy' style="font-size: 15px; color: #720d0d">京ICP备19002531号-1</span>
+            <div style="position: absolute; bottom: 50px; left: 4%">
+                <span class='xn_mb_1_copy' style="font-size: 13px; color: #720d0d">Copyright ©2018 - 2021 艺乡建 京ICP备19002531号-1</span>
+                {{--<span class='xn_mb_1_copy' style="font-size: 15px; color: #720d0d">京ICP备19002531号-1</span>--}}
             </div>
         </div>
 
