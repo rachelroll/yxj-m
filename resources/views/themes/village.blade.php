@@ -17,6 +17,10 @@
             color: rgb(127, 127, 127); font-size: 12px;
             line-height: 2em;
         }
+
+        .xn_c_products_2_warp {
+            text-align: justify;
+        }
     </style>
 </head>
 <body class="news_body">
@@ -71,51 +75,94 @@ __VIEWSTATE" value="" />
             </ul>
         </div>
         <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
-            <div class="xn_c_products_2_text">
-                <p style="line-height: 28px;">
-                    <span style="font-size: 18px; color: #535353;">
+            <div class="xn_c_products_2_text" style="padding: 0.7rem">
+                <p style="line-height: 35px;">
+                    <span style="font-size: 20px; color: #535353;">
                         <strong>1.树立规划的全局统筹观念</strong>
                     </span>
                 </p>
-                <p style="line-height: 28px;">
+                <br>
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         在开展乡村规划和建设时，以艺术特色、生态宜居、服务均等、城乡和谐为基本要求，做好传统文化保护传承，着力体现区域民俗文化及传统物质空间形态。
                     </span>
                 </p>
-                <p style="line-height: 28px;">
+                <br>
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         乡村风貌规划及建设实施是一个系统工程，既涉及到宏观层面的乡村规划，中观、微观的空间规划设计，也涉及到乡村地区传统文化的普查、挖掘、再现与活化，还涉及到与实施息息相关的经济社会持续发展和制度设计。编制《建设艺术乡村行动纲要》，制定“人文、景观、产业、设施”四个类型艺术示范乡村的建设内容及考核标准，设立十项指标，全力推进“艺术特色乡村振兴示范”。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 28px;">
-                    <span style="font-size: 18px; color: #535353;">
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 20px; color: #535353;">
                         <strong>2.形成“乡村风貌档案”</strong>
                     </span>
                 </p>
-                <p style="line-height: 28px;">
+                <br>
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
                         传统村落”等“人文、景观、产业、设施”四个类型村落，分别制定保护规划。在保护的同时研究如何活化发展，基于乡村艺术特色基因的梳理提炼研究。
                     </span>
                 </p>
                 <p><br/></p>
-                <p style="line-height: 28px;">
-                    <span style="font-size: 18px; color: #535353;">
+                <p style="line-height: 30px;">
+                    <span style="font-size: 20px; color: #535353;">
                         <strong>3.制定技术导则及建设指引</strong>
                     </span>
                 </p>
-                <p style="line-height: 28px;">
+                <br>
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
-                        体现乡村空间精神的空间规划 ①有别于城市的乡村规划设计手法：在传承和复兴乡村的过程中，应该抓住符合乡村的空间肌理和空间场景，全面认识乡村空间构成及其审美价值；②充分发现并保留乡村的生产空间、生活空间、交流空间、道德空间、商业空间等类型，并落实到空间规划当中；③寻求乡村空间的多元化利用，规范建筑、景观、街道、导示等特色内容。
+                        体现乡村空间精神的空间规划
                     </span>
                 </p>
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 17px; color: #535353;">
+                        ①有别于城市的乡村规划设计手法：在传承和复兴乡村的过程中，应该抓住符合乡村的空间肌理和空间场景，全面认识乡村空间构成及其审美价值；
+                    </span>
+                </p>
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 17px; color: #535353;">
+                        ②充分发现并保留乡村的生产空间、生活空间、交流空间、道德空间、商业空间等类型，并落实到空间规划当中；
+                    </span>
+                </p>
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 17px; color: #535353;">
+                       ③寻求乡村空间的多元化利用，规范建筑、景观、街道、导示等特色内容。
+                    </span>
+                </p>
+                <br>
                 <p><br/></p>
                 <p style=
-"line-height: 28px;"><span style="font-size: 18px; color: #535353;"><strong>4.打造艺术特色范例村镇</strong></span>
+"line-height: 28px;"><span style="font-size: 20px; color: #535353;"><strong>4.打造艺术特色范例村镇</strong></span>
                 </p>
-                <p style="line-height: 28px;">
+                <br>
+                <p style="line-height: 30px;">
                     <span style="font-size: 17px; color: #535353;">
-                        动员全社会力量积极参与艺术化乡村建设，积极引智，采纳艺术家、文化学者与当地村民的综合意见，以提高村民的切身利益为出发点，形成良好的乡村风貌。 ①乡村建筑要体现乡土性，挖掘、传承、创新优秀传统乡土建筑的建设方式、建筑材料和建造技术；②乡村建筑在满足农民生产生活要求基础上，必须体现现代性；③乡村建筑实施建设时宜发挥政府的引导+工匠的现场指导+农民的积极参与。
+                        动员全社会力量积极参与艺术化乡村建设，积极引智，采纳艺术家、文化学者与当地村民的综合意见，以提高村民的切身利益为出发点，形成良好的乡村风貌。
+                    </span>
+                </p>
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 17px; color: #535353;">
+                         ①乡村建筑要体现乡土性，挖掘、传承、创新优秀传统乡土建筑的建设方式、建筑材料和建造技术；
+                    </span>
+                </p>
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 17px; color: #535353;">
+                        ②乡村建筑在满足农民生产生活要求基础上，必须体现现代性；
+                    </span>
+                </p>
+                <br>
+                <p style="line-height: 30px;">
+                    <span style="font-size: 17px; color: #535353;">
+                       ③乡村建筑实施建设时宜发挥政府的引导+工匠的现场指导+农民的积极参与。
                     </span>
                 </p>
                 <p><br/></p>
