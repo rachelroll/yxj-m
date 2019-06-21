@@ -17,10 +17,6 @@
             color: rgb(127, 127, 127); font-size: 12px;
             line-height: 2em;
         }
-
-        .xn_c_products_2_warp {
-            text-align: justify;
-        }
     </style>
 </head>
 <body class="news_body">
