@@ -53,7 +53,7 @@
 <br>
 <div id='ea_b' moudule='true'>
     <div class='xn_mb_1_wrap' id='xn_mb_1_wrap'>
-        <div style="background: url(/img/footer.jpg); height: 4rem; width: 100%; position:relative">
+        <div style="background: url(/img/footer.jpg); height: 3.9rem; width: 100%; position:relative">
             <div style="position: absolute; bottom: 8px; left: 8%">
                 <span class='xn_mb_1_copy' style="font-size: 13px; color: #720d0d">Copyright ©2018 - 2021 艺乡建 &nbsp京ICP备19002531号-1</span>
                 {{--<span class='xn_mb_1_copy' style="font-size: 15px; color: #720d0d">京ICP备19002531号-1</span>--}}
