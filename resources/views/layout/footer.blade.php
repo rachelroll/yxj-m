@@ -52,11 +52,8 @@
         background-size:100% 100%;
         position:relative;
         height: 3.9rem;
-        /*width: 100%; */
     }
-
 </style>
-
 <br>
 <br>
 <br>

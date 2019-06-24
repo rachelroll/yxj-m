@@ -60,7 +60,7 @@ __VIEWSTATE" value="" />
                 <li class="xn_mc_case_1_li">
                     <a href="{{ route('view.office.show', ['id' => 'bj']) }}">
                         <div class="xn_mc_case_1_img">
-                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' alt='北京事业部'  title='北京事业部' />
+                            <img  data-original='/img/index_xjsy_001_bj.jpg' alt='北京事业部'  title='北京事业部' />
                         </div>
                         <div class="xn_mc_case_1_cont">
                             <div class="xn_mc_case_1_name">
@@ -78,7 +78,7 @@ __VIEWSTATE" value="" />
                 <li class="xn_mc_case_1_li">
                     <a href="{{ route('view.office.show', ['id' => 'hb']) }}">
                         <div class="xn_mc_case_1_img">
-                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSM2Ab7WDAADWmVQsTR4890.jpg' />
+                            <img  data-original='/img/index_xjsy_002_hb.jpg' />
                         </div>
                         <div class="xn_mc_case_1_cont">
                             <div class="xn_mc_case_1_name">
@@ -96,7 +96,7 @@ __VIEWSTATE" value="" />
                 <li class="xn_mc_case_1_li">
                     <a href="{{ route('view.office.show', ['id' => 'hz']) }}">
                         <div class="xn_mc_case_1_img">
-                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg'/>
+                            <img  data-original='/img/index_xjsy_004_hz.jpg'/>
                         </div>
                         <div class="xn_mc_case_1_cont">
                             <div class="xn_mc_case_1_name">
@@ -114,7 +114,7 @@ __VIEWSTATE" value="" />
                 <li class="xn_mc_case_1_li">
                     <a href="{{ route('view.office.show', ['id' => 'yc']) }}">
                         <div class="xn_mc_case_1_img">
-                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F4/E9/CgAGfFvlSR6AdPXsAAEvV6iOiZ8303.jpg' />
+                            <img  data-original='/img/index_xjsy_005_yc.jpg' />
                         </div>
                         <div class="xn_mc_case_1_cont">
                             <div class="xn_mc_case_1_name">

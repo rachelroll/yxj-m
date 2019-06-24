@@ -52,7 +52,7 @@ __VIEWSTATE" value="" />
                 <li class="xn_mc_case_1_li">
                     <a href="{{ route('view.office.show', ['id' => 'jnd']) }}">
                         <div class="xn_mc_case_1_img">
-                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' />
+                            <img  data-original='/img/index_xjsy_003_jnd.jpg' />
                         </div>
                         <div class="xn_mc_case_1_cont">
                             <div class="xn_mc_case_1_name">

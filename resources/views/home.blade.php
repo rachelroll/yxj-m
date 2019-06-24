@@ -160,7 +160,7 @@
                         <ul class='xn_c_index_268_ul'>
                             <li class='xn_c_index_268_li'>
                                 <div class='xn_c_index_268_img'>
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' alt='北京事业部' title='北京事业部'>
+                                    <img data-original='/img/index_xjsy_001_bj.jpg' alt='北京事业部' title='北京事业部'>
                                 </div>
                                 <div class='xn_c_index_268_li_cont'>
                                     <div>
@@ -179,7 +179,7 @@
                             </li>
                             <li class='xn_c_index_268_li'>
                                 <div class='xn_c_index_268_img'>
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSM2Ab7WDAADWmVQsTR4890.jpg'>
+                                    <img data-original='/img/index_xjsy_002_hb.jpg'>
                                 </div>
                                 <div class='xn_c_index_268_li_cont'>
                                     <div>
@@ -201,7 +201,7 @@
                             </li>
                             <li class='xn_c_index_268_li'>
                                 <div class='xn_c_index_268_img'>
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg'>
+                                    <img data-original='/img/index_xjsy_004_hz.jpg'>
                                 </div>
                                 <div class='xn_c_index_268_li_cont'>
                                     <div>
@@ -222,7 +222,7 @@
                             </li>
                             <li class='xn_c_index_268_li'>
                                 <div class='xn_c_index_268_img'>
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E9/CgAGfFvlSR6AdPXsAAEvV6iOiZ8303.jpg'>
+                                    <img data-original='/img/index_xjsy_005_yc.jpg'>
                                 </div>
                                 <div class='xn_c_index_268_li_cont'>
                                     <div>
@@ -248,7 +248,7 @@
                         <ul class='xn_c_index_268_ul'>
                             <li class='xn_c_index_268_li'>
                                 <div class='xn_c_index_268_img'>
-                                    <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E7/CgAGfFvlRrmALa2PAACbPsoD-_o565.jpg' alt='加拿大事业部' title='加拿大事业部'>
+                                    <img data-original='/img/index_xjsy_003_jnd.jpg' alt='加拿大事业部' title='加拿大事业部'>
                                 </div>
                                 <div class='xn_c_index_268_li_cont'>
                                     <div>
